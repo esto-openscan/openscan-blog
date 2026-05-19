@@ -1,0 +1,30 @@
+services:
+  site:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: >
+      bash -lc "bundle install &&
+      exec bundle exec jekyll serve
+      --host 0.0.0.0
+      --port 4000
+      --livereload
+      --livereload-port 35729
+      --drafts"
+    stop_signal: SIGINT
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    volumes:
+      - .:/workspace
+      - bundle-cache:/usr/local/bundle
+    environment:
+      BUNDLE_PATH: /usr/local/bundle
+      BUNDLE_BIN: /usr/local/bundle/bin
+      GEM_HOME: /usr/local/bundle
+      JEKYLL_ENV: development
+    stdin_open: true
+    tty: true
+
+volumes:
+  bundle-cache:

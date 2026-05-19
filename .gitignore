@@ -6,14 +6,18 @@ Gemfile.lock
 # Jekyll cache
 .jekyll-cache
 .jekyll-metadata
+.sass-cache
 _site
 
 # RubyGems
 *.gem
+vendor/bundle
+vendor/cache
 
 # NPM dependencies
 node_modules
 package-lock.json
+npm-debug.log*
 
 # IDE configurations
 .idea

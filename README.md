@@ -25,6 +25,24 @@ This starter bundles those files from the latest **Chirpy** release along with a
 
 Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
 
+## Local development with Docker
+
+Build and start the local preview:
+
+```shell
+docker compose up --build
+```
+
+The site is available at <http://localhost:4000>. Jekyll runs inside the container with LiveReload enabled and uses a Docker volume for the Bundler gem cache.
+
+Stop the local environment:
+
+```shell
+docker compose down
+```
+
+Generated local files such as `_site`, `.jekyll-cache`, `.sass-cache`, `vendor/bundle`, `vendor/cache`, and `node_modules` should not be committed.
+
 ## Contributing
 
 This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
