@@ -2,11 +2,11 @@
 title: "OpenScan Mini + Classic - New Firmware (Beta)"
 date: "2021-11-22T11:30:00+01:00"
 author: "Thomas Megel"
+legacy: true
 categories:
-  - "OpenScan Blog"
-tags:
   - "News"
-  - "Update"
+tags:
+  - "openscan2"
 image:
   path: "/assets/img/posts/2021-11-22-openscan-mini-classic-new-firmware-beta/2021-11-21-firmware-beta.webp"
 redirect_from:

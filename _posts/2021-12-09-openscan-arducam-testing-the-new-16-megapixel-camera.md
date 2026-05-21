@@ -2,11 +2,12 @@
 title: "OpenScan + Arducam - testing the new 16 Megapixel camera"
 date: "2021-12-09T11:30:00+01:00"
 author: "Thomas Megel"
+legacy: true
 categories:
-  - "OpenScan Blog"
-tags:
   - "News"
-  - "Update"
+tags:
+  - "arducam"
+  - "openscan-mini"
 image:
   path: "/assets/img/posts/2021-12-09-openscan-arducam-testing-the-new-16-megapixel-camera/2021-12-01-arducam04.webp"
 redirect_from:

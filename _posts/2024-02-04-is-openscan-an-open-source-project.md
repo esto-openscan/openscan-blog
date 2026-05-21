@@ -3,11 +3,11 @@ title: "Is OpenScan an Open Source project?"
 date: "2024-02-04T13:30:00+01:00"
 author: "Thomas Megel"
 categories:
-  - "OpenScan Blog"
+  - "Projects"
 tags:
-  - "Firmware"
-  - "News"
-  - "Update"
+  - "open-source"
+  - "openscancloud"
+  - "community"
 image:
   path: "/assets/img/posts/2024-02-04-is-openscan-an-open-source-project/2024-02-04-teachingtech.png"
 redirect_from:

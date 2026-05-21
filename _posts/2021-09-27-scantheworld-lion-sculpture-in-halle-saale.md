@@ -2,10 +2,12 @@
 title: "ScanTheWorld - Lion Sculpture in Halle (Saale)"
 date: "2021-09-27T10:30:00+02:00"
 author: "Thomas Megel"
+legacy: true
 categories:
-  - "OpenScan Blog"
+  - "Projects"
 tags:
-  - "Tutorial"
+  - "scanning"
+  - "photogrammetry"
 image:
   path: "/assets/img/posts/2021-09-27-scantheworld-lion-sculpture-in-halle-saale/2021-09-22-scantheworld-lion.webp"
 redirect_from:

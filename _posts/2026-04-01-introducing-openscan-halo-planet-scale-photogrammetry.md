@@ -3,8 +3,9 @@ title: "Introducing OpenScan Halo: Planet-scale photogrammetry"
 date: "2026-04-01T10:46:23+02:00"
 author: "Thomas Megel"
 categories:
-  - "OpenScan Blog"
-tags: []
+  - "News"
+tags: 
+  - "deadpan"
 image:
   path: "/assets/img/posts/2026-04-01-introducing-openscan-halo-planet-scale-photogrammetry/openscanhalo.png"
 redirect_from:

@@ -3,10 +3,15 @@ title: "0.008mm accuracy with the OpenScan Mini - Tutorial - Mesh analysis using
 date: "2022-06-09T13:00:00+02:00"
 author: "Thomas Megel"
 categories:
-  - "OpenScan Blog"
+  - "Research"
 tags:
-  - "Experiment"
-  - "Tutorial"
+  - "research"
+  - "accuracy"
+  - "testing"
+  - "measurement"
+  - "cloudcompare"
+  - "3d-model"
+  - "openscan-mini"
 image:
   path: "/assets/img/posts/2022-06-09-0-008mm-accuracy-with-the-openscan-mini-tutorial-mesh-analysis-using-cloudcompare/2022-06-09-accuracy03.webp"
 redirect_from:

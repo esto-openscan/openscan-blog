@@ -2,12 +2,14 @@
 title: "360 degree 3D Scan without any post-processing"
 date: "2022-03-02T12:30:00+01:00"
 author: "Thomas Megel"
+legacy: true
 categories:
-  - "OpenScan Blog"
+  - "Tutorials"
 tags:
-  - "Experiment"
-  - "Firmware"
-  - "Tutorial"
+  - "openscan2"
+  - "openscancloud"
+  - "how-to"
+  - "surface-prep"
 image:
   path: "/assets/img/posts/2022-03-02-360-degree-3d-scan-without-any-post-processing/2022-03-02-360degree-scanning1.webp"
 redirect_from:

@@ -2,10 +2,14 @@
 title: "Tutorial - Scanning a metal key with the right amount of scanning/chalk spray"
 date: "2021-08-23T09:30:00+02:00"
 author: "Thomas Megel"
+legacy: true
 categories:
-  - "OpenScan Blog"
+  - "Tutorials"
 tags:
-  - "Tutorial"
+  - "photogrammetry"
+  - "surface-prep"
+  - "scanning-spray"
+  - "cross-polarization"
 image:
   path: "/assets/img/posts/2021-08-23-tutorial-scanning-a-metal-key-with-the-right-amount-of-scanning-chalk-spray/2021-08-23-scanned-keys.webp"
 redirect_from:

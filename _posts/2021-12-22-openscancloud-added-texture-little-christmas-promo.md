@@ -3,9 +3,10 @@ title: "OpenScanCloud - Added texture (+ Little Christmas promo)"
 date: "2021-12-22T12:00:00+01:00"
 author: "Thomas Megel"
 categories:
-  - "OpenScan Blog"
+  - "News"
 tags:
-  - "Update"
+  - "openscancloud"
+  - "texture"
 image:
   path: "/assets/img/posts/2021-12-22-openscancloud-added-texture-little-christmas-promo/2021-12-22-osc-color1.webp"
 redirect_from:

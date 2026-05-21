@@ -2,12 +2,11 @@
 title: "OpenScanCloud (OSC) Desktop & Python Uploader (beta)"
 date: "2021-09-10T10:30:00+02:00"
 author: "Thomas Megel"
+legacy: true
 categories:
-  - "OpenScan Blog"
-tags:
   - "News"
-  - "Tutorial"
-  - "Update"
+tags:
+  - "openscancloud"
 image:
   path: "/assets/img/posts/2021-09-10-openscancloud-osc-desktop-python-uploader-beta/2021-09-10-osc-uploader.webp"
 redirect_from:

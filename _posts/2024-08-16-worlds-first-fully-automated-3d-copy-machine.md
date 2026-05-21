@@ -6,10 +6,12 @@ description: "It has been a long-standing dream to have a machine into which you
 shopify_summary_html: |-
   <span data-mce-fragment="1">It has been a long-standing dream to have a machine into which you can simply place an object, press a button, and obtain an exact copy. Through the power of open-source software and open hardware, we have been able to build </span><strong data-mce-fragment="1">the world's first fully automated copy machine for real-world objects</strong><span data-mce-fragment="1">. We achieved this by combining our </span><a data-mce-fragment="1" href="https://openscan.eu/pages/openscan-mini" title="OpenScan Mini" data-mce-href="https://openscan.eu/pages/openscan-mini">OpenScan Mini</a><span data-mce-fragment="1"> with a </span><a data-mce-fragment="1" href="https://www.prusa3d.com/category/original-prusa-i3-mk3s/" title="Prusa MK3S+" data-mce-href="https://www.prusa3d.com/category/original-prusa-i3-mk3s/">Prusa MK3S+</a><span data-mce-fragment="1"> 3D printer.</span>
 categories:
-  - "OpenScan Blog"
+  - "Projects"
 tags:
-  - "Experiment"
-  - "Firmware"
+  - "experiment"
+  - "3d-scanning"
+  - "3d-printing"
+  - "automation"
 image:
   path: "/assets/img/posts/2024-08-16-worlds-first-fully-automated-3d-copy-machine/title.jpg"
 redirect_from:

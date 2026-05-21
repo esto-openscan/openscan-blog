@@ -6,9 +6,11 @@ description: "TL;DR: We handle the US tariffs for you! We'll update this post re
 shopify_summary_html: |-
   <p><span>TL;DR: We handle the US tariffs for you! We'll update this post regularly.</span></p>
 categories:
-  - "OpenScan Blog"
-tags:
   - "News"
+tags:
+  - "shipping"
+  - "us-tariffs"
+  - "customs"
 image:
   path: "/assets/img/posts/2026-02-04-ordering-from-the-us-no-hidden-fees-no-surprises/flickr-noricum-parcel-cc-by-sa2-0-87a73aba-c68f-4f69-82d7-8318f85338b4.jpg"
 redirect_from:

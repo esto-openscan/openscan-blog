@@ -3,9 +3,12 @@ title: "Optimizing 3D Scans: How Many Photos Do You Really Need?"
 date: "2025-03-26T19:14:43+01:00"
 author: "Thomas Megel"
 categories:
-  - "OpenScan Blog"
+  - "Research"
 tags:
-  - "Experiment"
+  - "experiment"
+  - "research"
+  - "analysis"
+  - "photo-count"
 image:
   path: "/assets/img/posts/2025-03-26-optimizing-3d-scans-how-many-photos-do-you-really-need/photocount-photogrammetry-5d3b6b89-b153-4885-83fa-1019c633f20a.gif"
 redirect_from:

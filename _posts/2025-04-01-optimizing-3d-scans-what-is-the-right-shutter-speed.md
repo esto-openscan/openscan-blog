@@ -3,9 +3,13 @@ title: "Optimizing 3D Scans: What is the right shutter speed?"
 date: "2025-04-01T15:40:20+02:00"
 author: "Thomas Megel"
 categories:
-  - "OpenScan Blog"
+  - "Research"
 tags:
-  - "Experiment"
+  - "exposure"
+  - "photogrammetry"
+  - "shutter-speed"
+  - "analysis"
+  - "experiment"
 image:
   path: "/assets/img/posts/2025-04-01-optimizing-3d-scans-what-is-the-right-shutter-speed/shutterspeed-compare-histo-bc2e5f75-193a-4567-b5dc-c1c70c2bdd57.jpg"
 redirect_from:

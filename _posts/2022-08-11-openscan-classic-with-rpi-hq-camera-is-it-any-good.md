@@ -3,9 +3,14 @@ title: "OpenScan Classic with RPI HQ camera, is it any good?"
 date: "2022-08-11T13:00:00+02:00"
 author: "Thomas Megel"
 categories:
-  - "OpenScan Blog"
+  - "Research"
 tags:
-  - "Experiment"
+  - "accuracy"
+  - "testing"
+  - "measurement"
+  - "arducam"
+  - "openscan-mini"
+  - "openscan-classic"
 image:
   path: "/assets/img/posts/2022-08-11-openscan-classic-with-rpi-hq-camera-is-it-any-good/2022-08-11-rpi-hq02.webp"
 redirect_from:

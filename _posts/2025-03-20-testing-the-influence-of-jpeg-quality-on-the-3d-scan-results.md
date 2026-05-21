@@ -3,9 +3,13 @@ title: "Testing the influence of JPEG quality on the 3D scan results"
 date: "2025-03-20T11:52:34+01:00"
 author: "Thomas Megel"
 categories:
-  - "OpenScan Blog"
+  - "Research"
 tags:
-  - "Experiment"
+  - "jpeg"
+  - "photogrammetry"
+  - "3d-scanning"
+  - "openscancloud"
+  - "experiment"
 image:
   path: "/assets/img/posts/2025-03-20-testing-the-influence-of-jpeg-quality-on-the-3d-scan-results/10vs100-d32c27ee-7617-44a5-a35b-a940b99b3aad.gif"
 redirect_from:

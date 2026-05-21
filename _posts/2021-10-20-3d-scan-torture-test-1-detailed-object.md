@@ -3,9 +3,11 @@ title: "3D Scan Torture Test (1) - Detailed object"
 date: "2021-10-20T11:00:00+02:00"
 author: "Thomas Megel"
 categories:
-  - "OpenScan Blog"
+  - "Research"
 tags:
-  - "Tutorial"
+  - "photogrammetry"
+  - "3d-model"
+  - "openscan-mini"
 image:
   path: "/assets/img/posts/2021-10-20-3d-scan-torture-test-1-detailed-object/render-osc1.jpg"
 redirect_from:

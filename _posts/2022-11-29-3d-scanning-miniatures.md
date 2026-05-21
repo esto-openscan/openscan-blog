@@ -2,11 +2,16 @@
 title: "3D Scanning Miniatures"
 date: "2022-11-29T13:30:00+01:00"
 author: "Thomas Megel"
+legacy: true
 categories:
-  - "OpenScan Blog"
+  - "Tutorials"
 tags:
-  - "Experiment"
-  - "News"
+  - "minitures"
+  - "scanning"
+  - "3d-printing"
+  - "photogrammetry"
+  - "how-to"
+  - "openscan-mini"
 image:
   path: "/assets/img/posts/2022-11-29-3d-scanning-miniatures/2022-11-29-scanning-miniatures01.webp"
 redirect_from:

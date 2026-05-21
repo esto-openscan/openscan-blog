@@ -2,12 +2,11 @@
 title: "Major Firmware Update - OpenScanCloud 4 All"
 date: "2022-01-08T12:00:00+01:00"
 author: "Thomas Megel"
+legacy: true
 categories:
-  - "OpenScan Blog"
+  - "Firmware"
 tags:
-  - "News"
-  - "Tutorial"
-  - "Update"
+  - "openscan2"
 image:
   path: "/assets/img/posts/2022-01-08-major-firmware-update-openscancloud-4-all/2022-01-08-firmware-update1.webp"
 redirect_from:

@@ -3,11 +3,12 @@ title: "OpenScan3 Firmware: Quick Start & Troubleshooting"
 date: "2026-04-16T13:31:29+02:00"
 author: "Elias Stognienko"
 description: "Getting started with OpenScan3 is straightforward once the image is flashed and the device is on the network. This post explains the basic setup process and covers the most common issues during installation and first boot."
-shopify_summary_html: |-
-  <p data-start="5017" data-end="5253">Getting started with OpenScan3 is straightforward once the image is flashed and the device is on the network. This post explains the basic setup process and covers the most common issues during installation and first boot.</p>
 categories:
-  - "OpenScan Blog"
-tags: []
+  - "Tutorials"
+tags:
+  - "openscan3"
+  - "firmware"
+  - "how-to"
 image:
   path: "/assets/img/posts/2026-04-16-openscan3-firmware-quick-start/os3-quickstart-9ceb2653-685c-4333-8bfa-89509fc6266c.jpg"
 redirect_from:

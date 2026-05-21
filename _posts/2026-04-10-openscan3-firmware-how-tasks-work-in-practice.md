@@ -3,13 +3,13 @@ title: "OpenScan3 Firmware: How tasks work in practice"
 date: "2026-04-10T11:57:33+02:00"
 author: "Elias Stognienko"
 description: "A practical look at how tasks work in OpenScan3: lifecycle, states, progress, logs, cancellation, and why some tasks stay in the background while others take over the interface."
-shopify_summary_html: |-
-  <p data-end="241" data-start="50">A practical look at how tasks work in OpenScan3: lifecycle, states, progress, logs, cancellation, and why some tasks stay in the background while others take over the interface.</p>
-  <p data-is-only-node="" data-is-last-node="" data-end="412" data-start="243"> </p>
 categories:
-  - "OpenScan Blog"
-tags:
   - "Firmware"
+tags:
+  - "openscan3"
+  - "firmware"
+  - "architecture"
+  - "task-system"
 image:
   path: "/assets/img/posts/2026-04-10-openscan3-firmware-how-tasks-work-in-practice/os3-task-in-practice-d6deff93-1c00-49f4-b400-5b70af9954ca.jpg"
 redirect_from:

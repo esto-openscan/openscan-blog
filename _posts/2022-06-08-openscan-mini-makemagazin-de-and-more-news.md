@@ -2,10 +2,10 @@
 title: "OpenScan Mini @ MakeMagazin DE and more news"
 date: "2022-06-08T12:30:00+02:00"
 author: "Thomas Megel"
+legacy: true
 categories:
-  - "OpenScan Blog"
-tags:
   - "News"
+tags: []
 image:
   path: "/assets/img/posts/2022-06-08-openscan-mini-makemagazin-de-and-more-news/2022-06-08-makemagazin.webp"
 redirect_from:

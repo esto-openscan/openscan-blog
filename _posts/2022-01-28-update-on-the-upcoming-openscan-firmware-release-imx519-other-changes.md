@@ -2,11 +2,11 @@
 title: "Update on the upcoming OpenScan firmware release (IMX519 + other changes)"
 date: "2022-01-28T12:30:00+01:00"
 author: "Thomas Megel"
+legacy: true
 categories:
-  - "OpenScan Blog"
-tags:
   - "Firmware"
-  - "Update"
+tags:
+  - "openscan2"
 image:
   path: "/assets/img/posts/2022-01-28-update-on-the-upcoming-openscan-firmware-release-imx519-other-changes/2022-01-28-firmware-stacking1.webp"
 redirect_from:

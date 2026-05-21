@@ -3,10 +3,11 @@ title: "OpenScan Benchy - 3D Scanning Benchmark"
 date: "2024-07-08T10:46:49+02:00"
 author: "Thomas Megel"
 categories:
-  - "OpenScan Blog"
+  - "Research"
 tags:
-  - "Experiment"
-  - "News"
+  - "3d-model"
+  - "benchmark"
+  - "scanning-benchmark"
 image:
   path: "/assets/img/posts/2024-07-08-openscan-benchy-3d-scanning-benchmark/img-5930.jpg"
 redirect_from:
@@ -24,7 +25,7 @@ This little model is able to show the strength and weaknesses of each 3D Scanner
 
 We will document all unpolished raw 3D scans on this [GitHub repository](https://github.com/OpenScanEu/OpenScanBenchy) and hope to see a wide range of scanners and methods being used.
 
-[**Print your own**](https://www.printables.com/model/857818-openscan-benchy)**OpenScan Benchy or**[**get one from**](https://62f7a3-4.myshopify.com/products/openscan-benchy)[**our shop for as little as 5€ (free shipping)**](https://en.openscan.eu/product-page/openscan-benchy)**and don't forget to share your scan results!**
+[Print your own](https://www.printables.com/model/857818-openscan-benchy) OpenScan Benchy or [get one from our shop](https://en.openscan.eu/product-page/openscan-benchy) and don't forget to share your scan results!
 
 ## CT scan - the mother of all benchys
 

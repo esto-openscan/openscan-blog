@@ -8,9 +8,11 @@ shopify_summary_html: |-
   <p data-start="231" data-end="393">An overview of the architecture behind the OpenScan3 firmware, explaining core design decisions, abstractions and how different parts of the system fit together.</p>
   </blockquote>
 categories:
-  - "OpenScan Blog"
-tags:
   - "Firmware"
+tags:
+  - "openscan3"
+  - "firmware"
+  - "architecture"
 image:
   path: "/assets/img/posts/2026-01-23-preview-of-the-openscan3-firmware-a-fresh-start-with-modern-architecture/os3-dev-quadrat-20c2d0f9-615c-4808-b209-089bb8cdbb82.jpg"
 redirect_from:

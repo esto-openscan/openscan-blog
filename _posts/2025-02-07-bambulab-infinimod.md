@@ -3,10 +3,11 @@ title: "Bambu Lab A1 Mini - InfiniMod - Endless 3d printing"
 date: "2025-02-07T17:20:18+01:00"
 author: "Thomas Megel"
 categories:
-  - "OpenScan Blog"
+  - "Tutorials"
 tags:
-  - "Experiment"
+  - "experiment"
   - "Tutorial"
+  - "how-to"
 image:
   path: "/assets/img/posts/2025-02-07-bambulab-infinimod/img-8901.jpg"
 redirect_from:

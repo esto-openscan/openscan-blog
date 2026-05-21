@@ -3,10 +3,12 @@ title: "Polarizer Module for OpenScan Classic"
 date: "2025-02-04T10:45:12+01:00"
 author: "Thomas Megel"
 categories:
-  - "OpenScan Blog"
-tags:
   - "News"
-  - "Update"
+tags:
+  - "cross-polarisation"
+  - "openscan-classic"
+  - "polarizer"
+  - "update"
 image:
   path: "/assets/img/posts/2025-02-04-polarizer-module-for-openscan-classic/img-8849.jpg"
 redirect_from:

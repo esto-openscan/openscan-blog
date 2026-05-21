@@ -2,11 +2,11 @@
 title: "Major Update - OpenScan Micro & Future"
 date: "2021-08-18T09:30:00+02:00"
 author: "Thomas Megel"
+legacy: true
 categories:
-  - "OpenScan Blog"
-tags:
   - "News"
-  - "Update"
+tags:
+  - "project-update"
 image:
   path: "/assets/img/posts/2021-08-18-major-update-openscan-micro-future-1/2021-08-13-openscan-micro.webp"
 redirect_from:

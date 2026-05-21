@@ -3,8 +3,14 @@ title: "Reading the Histogram: Getting Exposure Right for Your 3D Scans"
 date: "2026-05-04T11:19:48+02:00"
 author: "Thomas Megel"
 categories:
-  - "OpenScan Blog"
-tags: []
+  - "Tutorials"
+tags:
+  - "histogram"
+  - "photogrammetry"
+  - "shutter-speed"
+  - "how-to"
+  - "exposure"
+  - "openscan3"
 image:
   path: "/assets/img/posts/2026-05-04-understanding-and-using-the-histogram-to-improve-scan-quality/histogram-titel-b9cf756f-7dc4-48fc-a592-519892a09f70.png"
 redirect_from:

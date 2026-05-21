@@ -2,10 +2,12 @@
 title: "New Firmware with cloud functionality for OpenScan Classic & Mini (Beta)"
 date: "2021-10-11T11:00:00+02:00"
 author: "Thomas Megel"
+legacy: true
 categories:
-  - "OpenScan Blog"
+  - "Firmware"
 tags:
-  - "Update"
+  - "openscancloud"
+  - "openscan2"
 image:
   path: "/assets/img/posts/2021-10-11-new-firmware-with-cloud-functionality-for-openscan-classic-mini-beta/2021-10-12-osc-firmware.webp"
 redirect_from:

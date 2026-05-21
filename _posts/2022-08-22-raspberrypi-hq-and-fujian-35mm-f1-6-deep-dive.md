@@ -2,11 +2,12 @@
 title: "RaspberryPi HQ and Fujian 35mm f1.6 deep dive"
 date: "2022-08-22T13:30:00+02:00"
 author: "Thomas Megel"
+legacy: true
 categories:
-  - "OpenScan Blog"
+  - "Research"
 tags:
-  - "Experiment"
-  - "News"
+  - "photogrammetry"
+  - "depth-of-field"
 image:
   path: "/assets/img/posts/2022-08-22-raspberrypi-hq-and-fujian-35mm-f1-6-deep-dive/2022-08-22-fujian-deepdive-09.webp"
 redirect_from:

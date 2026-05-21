@@ -2,11 +2,11 @@
 title: "Mobile Scanning - Preparing a major update"
 date: "2021-10-28T11:00:00+02:00"
 author: "Thomas Megel"
+legacy: true
 categories:
-  - "OpenScan Blog"
-tags:
   - "News"
-  - "Update"
+tags:
+  - "update"
 image:
   path: "/assets/img/posts/2021-10-28-mobile-scanning-preparing-a-major-update/2021-10-28-firmware-improvements.webp"
 redirect_from:

@@ -3,11 +3,12 @@ title: "Scanning white objects with the help of UV powder"
 date: "2022-02-15T12:30:00+01:00"
 author: "Thomas Megel"
 categories:
-  - "OpenScan Blog"
+  - "Research"
 tags:
-  - "Experiment"
-  - "News"
-  - "Tutorial"
+  - "uv-powder"
+  - "surface-prep"
+  - "photogrammetry"
+  - "openscan-mini"
 image:
   path: "/assets/img/posts/2022-02-15-scanning-white-objects-with-the-help-of-uv-powder/2022-02-15-scanning-uv-spray1.webp"
 redirect_from:

@@ -3,12 +3,11 @@ title: "OpenScan3 Beta"
 date: "2026-04-16T13:31:25+02:00"
 author: "Elias Stognienko"
 description: "OpenScan3 is moving from alpha to beta. The core architecture is now solid enough for broader real-world testing, while development continues to focus on refinement, stability, and closing the remaining feature gaps."
-shopify_summary_html: |-
-  <p data-start="52" data-end="282">OpenScan3 is moving from alpha to beta. The core architecture is now solid enough for broader real-world testing, while development continues to focus on refinement, stability, and closing the remaining feature gaps.</p>
 categories:
-  - "OpenScan Blog"
-tags:
   - "News"
+tags:
+  - "firmware"
+  - "openscan3"
 image:
   path: "/assets/img/posts/2026-04-16-openscan3-reaches-beta/openscan3-beta-2d3e53ec-5997-4802-a69f-09bacfbc0146.png"
 redirect_from:

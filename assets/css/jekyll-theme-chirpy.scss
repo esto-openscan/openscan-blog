@@ -1,0 +1,401 @@
+---
+---
+
+@use "main";
+
+main > article > header > .post-meta ~ .mt-3.mb-3,
+main > article > header a.preview-img {
+  display: none !important;
+}
+
+#sidebar #avatar:empty:not([style]) {
+  display: none;
+}
+
+html[data-mode="dark"] #sidebar #avatar {
+  background-color: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode]) #sidebar #avatar {
+    background-color: #ffffff;
+  }
+}
+
+@mixin openscan-light-vars {
+  --openscan-primary: #078dd7;
+  --openscan-primary-dark: #0757d7;
+  --openscan-primary-light: #2fa3e6;
+  --openscan-soft-bg: #f3f9fc;
+  --openscan-card-bg: #ffffff;
+  --openscan-card-hover-bg: #f3faff;
+  --openscan-card-border: rgb(104 145 168 / 22%);
+  --openscan-card-border-hover: rgb(7 141 215 / 30%);
+  --openscan-card-shadow:
+    0 10px 26px rgb(40 72 90 / 7%),
+    inset 0 1px 0 rgb(255 255 255 / 75%);
+  --openscan-card-hover-shadow:
+    0 14px 32px rgb(5 111 168 / 10%),
+    inset 0 1px 0 rgb(255 255 255 / 80%);
+  --openscan-panel-border: rgb(104 145 168 / 22%);
+  --openscan-tag-bg: rgb(7 141 215 / 5%);
+  --openscan-tag-border: rgb(7 141 215 / 18%);
+  --openscan-accent: #d75107;
+  --openscan-success: #2fae6e;
+  --openscan-site-title: #111111;
+  --openscan-site-subtitle: #5c707b;
+  --openscan-card-title: #102a3a;
+  --openscan-card-text: #334b5a;
+  --openscan-card-meta: #476171;
+  --openscan-panel-heading: #2c4655;
+  --openscan-lastmod-link: #415b69;
+
+  --link-color: var(--openscan-primary);
+  --link-underline-color: rgb(7 141 215 / 28%);
+  --toc-highlight: var(--openscan-primary);
+  --checkbox-checked-color: var(--openscan-primary);
+  --tag-border: var(--openscan-tag-border);
+  --tag-hover: rgb(7 141 215 / 11%);
+  --search-tag-bg: var(--openscan-tag-bg);
+
+  --sidebar-bg: var(--openscan-soft-bg);
+  --sidebar-border-color: rgb(104 145 168 / 18%);
+  --sidebar-muted-color: #33424d;
+  --sidebar-active-color: var(--openscan-primary-dark);
+  --sidebar-hover-bg: rgb(7 141 215 / 8%);
+  --sidebar-btn-bg: #ffffff;
+  --sidebar-btn-color: var(--openscan-primary-dark);
+
+  --prompt-info-bg: var(--openscan-soft-bg);
+  --prompt-info-icon-color: var(--openscan-primary);
+  --prompt-tip-icon-color: var(--openscan-success);
+  --prompt-danger-icon-color: var(--openscan-accent);
+}
+
+@mixin openscan-dark-vars {
+  --openscan-primary: #0757d7;
+  --openscan-primary-dark: #8cc6ff;
+  --openscan-primary-light: #4aa9ff;
+  --openscan-soft-bg: #151d25;
+  --openscan-card-bg: #1d2731;
+  --openscan-card-hover-bg: #243240;
+  --openscan-card-border: rgb(127 166 190 / 22%);
+  --openscan-card-border-hover: rgb(74 169 255 / 38%);
+  --openscan-card-shadow:
+    0 12px 30px rgb(0 0 0 / 24%),
+    inset 0 1px 0 rgb(255 255 255 / 4%);
+  --openscan-card-hover-shadow:
+    0 16px 36px rgb(0 0 0 / 30%),
+    inset 0 1px 0 rgb(255 255 255 / 6%);
+  --openscan-panel-border: rgb(127 166 190 / 18%);
+  --openscan-tag-bg: rgb(74 169 255 / 12%);
+  --openscan-tag-border: rgb(74 169 255 / 25%);
+  --openscan-accent: #ff9d62;
+  --openscan-success: #5bd493;
+  --openscan-site-title: #f3f7fb;
+  --openscan-site-subtitle: #a9bac7;
+  --openscan-card-title: #ecf4fa;
+  --openscan-card-text: #c5d1da;
+  --openscan-card-meta: #9fb2c0;
+  --openscan-panel-heading: #d7e4ed;
+  --openscan-lastmod-link: #b9c7d1;
+
+  --link-color: var(--openscan-primary-light);
+  --link-underline-color: rgb(74 169 255 / 30%);
+  --toc-highlight: var(--openscan-primary-light);
+  --checkbox-checked-color: var(--openscan-primary);
+  --tag-border: var(--openscan-tag-border);
+  --tag-hover: rgb(74 169 255 / 18%);
+  --search-tag-bg: var(--openscan-tag-bg);
+
+  --sidebar-bg: var(--openscan-soft-bg);
+  --sidebar-border-color: rgb(127 166 190 / 15%);
+  --sidebar-muted-color: #a9bac7;
+  --sidebar-active-color: var(--openscan-primary-light);
+  --sidebar-hover-bg: rgb(74 169 255 / 13%);
+  --sidebar-btn-bg: #202b36;
+  --sidebar-btn-color: #d8e8f2;
+
+  --prompt-info-bg: rgb(74 169 255 / 10%);
+  --prompt-info-icon-color: var(--openscan-primary-light);
+  --prompt-tip-icon-color: var(--openscan-success);
+  --prompt-danger-icon-color: var(--openscan-accent);
+}
+
+@mixin openscan-components {
+  #sidebar .site-title {
+    color: var(--openscan-site-title);
+  }
+
+  #sidebar .site-subtitle {
+    color: var(--openscan-site-subtitle);
+  }
+
+  #sidebar ul li.nav-item:not(.active) .nav-link:hover {
+    color: var(--openscan-primary-dark);
+    background-color: var(--sidebar-hover-bg);
+  }
+
+  #sidebar ul li.nav-item.active .nav-link {
+    color: #ffffff;
+    background-color: var(--openscan-primary);
+  }
+
+  #sidebar ul li.nav-item.active .nav-link i {
+    opacity: 1;
+  }
+
+  #sidebar .sidebar-bottom a:hover,
+  #sidebar .sidebar-bottom #mode-toggle:hover {
+    color: #ffffff;
+    background-color: var(--openscan-primary);
+  }
+
+  #sidebar .sidebar-external-links {
+    margin-bottom: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--sidebar-border-color);
+  }
+
+  #sidebar .sidebar-external-links .nav {
+    flex-direction: column;
+  }
+
+  #sidebar .sidebar-external-links .nav-link {
+    color: var(--sidebar-muted-color);
+    font-size: 0.9rem;
+  }
+
+  #sidebar .sidebar-external-links .nav-link:hover {
+    color: #ffffff;
+    background-color: var(--openscan-primary);
+  }
+
+  .content a:not(.img-link):hover,
+  footer a:hover,
+  #search-results a:hover,
+  #topbar #breadcrumb a:hover {
+    color: var(--openscan-accent) !important;
+    border-bottom-color: var(--openscan-accent);
+  }
+
+  .archive-note {
+    margin: 0 0 1.5rem;
+    padding: 0.9rem 1rem;
+    border: 1px solid var(--openscan-tag-border);
+    border-left: 0.25rem solid var(--openscan-accent);
+    border-radius: 8px;
+    color: var(--text-color);
+    background: var(--openscan-tag-bg);
+  }
+
+  .archive-note strong {
+    color: var(--openscan-accent);
+  }
+
+  #post-list .card-wrapper {
+    overflow: hidden;
+    border: 1px solid var(--openscan-card-border);
+    background: var(--openscan-card-bg);
+    box-shadow: var(--openscan-card-shadow);
+    transition:
+      background-color 0.2s ease,
+      border-color 0.2s ease,
+      box-shadow 0.2s ease,
+      transform 0.2s ease;
+  }
+
+  #post-list .card-wrapper:hover {
+    border-color: var(--openscan-card-border-hover);
+    background: var(--openscan-card-hover-bg);
+    box-shadow: var(--openscan-card-hover-shadow);
+    transform: translateY(-1px);
+  }
+
+  #post-list .post-preview {
+    background: transparent;
+    display: grid;
+    grid-template-columns: 4.9rem minmax(0, 1fr);
+    column-gap: 1rem;
+    align-items: start;
+    padding: 0.85rem;
+  }
+
+  #post-list .card .card-body {
+    display: contents !important;
+    padding: 0;
+  }
+
+  #post-list .card .card-body .card-title {
+    color: var(--openscan-card-title) !important;
+    margin: 0.2rem 0 0;
+    min-height: 4.5rem;
+    overflow: visible;
+    text-overflow: clip;
+    white-space: normal;
+    -webkit-line-clamp: unset;
+  }
+
+  #post-list .card .card-body .card-text.content {
+    grid-column: 1 / -1;
+  }
+
+  #post-list .card .card-body .card-text.content p {
+    color: var(--openscan-card-text);
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 0.7rem;
+    -webkit-line-clamp: 4;
+  }
+
+  #post-list .card .card-body .post-meta {
+    color: var(--openscan-card-meta) !important;
+    grid-column: 1 / -1;
+    margin-top: 1rem;
+  }
+
+  #panel-wrapper .access > section {
+    border-left-color: var(--openscan-panel-border);
+  }
+
+  #panel-wrapper .panel-heading {
+    color: var(--openscan-panel-heading);
+  }
+
+  #access-lastmod a {
+    color: var(--openscan-lastmod-link);
+  }
+
+  #access-lastmod a:hover {
+    color: var(--openscan-primary-dark) !important;
+    border-bottom-color: var(--openscan-primary-dark);
+  }
+
+  #panel-wrapper .post-tag.btn {
+    color: var(--openscan-primary-dark);
+    border-color: var(--openscan-tag-border);
+    background-color: var(--openscan-tag-bg);
+    box-shadow: none;
+  }
+
+  #panel-wrapper .post-tag.btn:hover {
+    color: #ffffff;
+    border-color: var(--openscan-primary);
+    background-color: var(--openscan-primary);
+  }
+
+  #post-list .preview-img {
+    width: 100%;
+    max-width: 4.9rem;
+    aspect-ratio: 1 / 1;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  #post-list .preview-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  #post-list .post-preview > .col-md-5 {
+    display: flex;
+    align-items: stretch;
+    grid-column: 1;
+    grid-row: 1;
+    width: 4.9rem;
+    padding: 0;
+  }
+
+  #post-list .post-preview > .col-md-7 {
+    display: contents;
+    width: auto;
+    min-width: 0;
+  }
+
+  @media (min-width: 768px) {
+    #post-list .post-preview {
+      display: flex;
+      flex-wrap: nowrap;
+      padding: 0;
+    }
+
+    #post-list .card .card-body {
+      display: block;
+      padding: 1.25rem 1.5rem 1.1rem;
+    }
+
+    #post-list .card .card-body .card-title {
+      margin: 0;
+      min-height: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 2;
+    }
+
+    #post-list .card .card-body .card-text.content {
+      grid-column: auto;
+    }
+
+    #post-list .card .card-body .card-text.content p {
+      grid-column: auto;
+      margin-top: 0;
+      -webkit-line-clamp: 3;
+    }
+
+    #post-list .card .card-body .post-meta {
+      grid-column: auto;
+      margin-top: 0;
+    }
+
+    #post-list .preview-img {
+      max-width: none;
+    }
+
+    #post-list .post-preview > .col-md-5 {
+      align-items: center;
+      flex: 0 0 auto;
+      grid-column: auto;
+      grid-row: auto;
+      width: clamp(8.5rem, 20%, 10.5rem);
+      padding: 0.75rem 0.75rem 0.75rem 0;
+    }
+
+    #post-list .post-preview > .col-md-7 {
+      display: block;
+      flex: 1 1 0;
+      width: auto;
+      min-width: 0;
+    }
+
+    #post-list .card .card-body {
+      min-height: 10.5rem;
+      padding: 1.25rem 1.5rem 1.1rem;
+    }
+  }
+}
+
+html[data-mode="light"] {
+  @include openscan-light-vars;
+  @include openscan-components;
+}
+
+html[data-mode="dark"] {
+  @include openscan-dark-vars;
+  @include openscan-components;
+}
+
+@media (prefers-color-scheme: light) {
+  html:not([data-mode]) {
+    @include openscan-light-vars;
+    @include openscan-components;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode]) {
+    @include openscan-dark-vars;
+    @include openscan-components;
+  }
+}

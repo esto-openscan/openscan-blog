@@ -3,11 +3,14 @@ title: "Chasing microns - OpenScan Mini accuracy test part 2"
 date: "2022-06-15T13:00:00+02:00"
 author: "Thomas Megel"
 categories:
-  - "OpenScan Blog"
+  - "Research"
 tags:
-  - "Experiment"
-  - "News"
-  - "Tutorial"
+  - "research"
+  - "accuracy"
+  - "testing"
+  - "measurement"
+  - "mesh-analysis"
+  - "openscan-mini"
 image:
   path: "/assets/img/posts/2022-06-15-chasing-microns-openscan-mini-accuracy-test-part-2/2022-06-15-accuracy04.webp"
 redirect_from:

@@ -3,8 +3,12 @@ title: "OpenScan3 Beta — What's New"
 date: "2026-04-17T11:46:56+02:00"
 author: "Thomas Megel"
 categories:
-  - "OpenScan Blog"
-tags: []
+  - "Firmware"
+tags: 
+  - "openscan3"
+  - "beta"
+  - "whats-new"
+  - "firmware"
 image:
   path: "/assets/img/posts/2026-04-17-openscan3-beta-whats-new/openscan3-beta.png"
 redirect_from:

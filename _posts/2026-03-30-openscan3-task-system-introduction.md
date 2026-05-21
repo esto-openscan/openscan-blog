@@ -6,9 +6,12 @@ description: "This post introduces the OpenScan3 task system and explains how it
 shopify_summary_html: |-
   <p data-start="212" data-end="365">This post introduces the OpenScan3 task system and explains how it improves long-running workflows, interface feedback, and extensibility.</p>
 categories:
-  - "OpenScan Blog"
-tags:
   - "Firmware"
+tags:
+  - "openscan3"
+  - "firmware"
+  - "architecture"
+  - "task-system"
 image:
   path: "/assets/img/posts/2026-03-30-openscan3-task-system-introduction/os3-task-system.jpg"
 redirect_from:

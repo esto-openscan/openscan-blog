@@ -3,8 +3,14 @@ title: "[Prototype] OpenScan Multi-Camera Rig"
 date: "2026-02-24T19:53:27+01:00"
 author: "Thomas Megel"
 categories:
-  - "OpenScan Blog"
-tags: []
+  - "Projects"
+tags:
+  - "project"
+  - "multicamera"
+  - "prototype"
+  - "rig"
+  - "raspberrypi"
+  - "pcb"
 image:
   path: "/assets/img/posts/2026-02-24-prototype-openscan-multi-camera-rig/img-3825.jpg"
 redirect_from:

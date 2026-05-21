@@ -2,11 +2,13 @@
 title: "Short Review - New Arducam TOF sensor (Kickstarter)"
 date: "2022-09-26T13:30:00+02:00"
 author: "Thomas Megel"
+legacy: true
 categories:
-  - "OpenScan Blog"
-tags:
-  - "Experiment"
   - "News"
+tags:
+  - "makerfaire"
+  - "arducam"
+  - "time-of-flight"
 image:
   path: "/assets/img/posts/2022-09-26-short-review-new-arducam-tof-sensor-kickstarter/2022-09-26-arducam-tof2.webp"
 redirect_from:

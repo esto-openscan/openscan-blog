@@ -3,32 +3,13 @@ title: "OpenScan3 Firmware: Smooth Moves"
 date: "2026-03-06T10:46:47+01:00"
 author: "Elias Stognienko"
 description: "OpenScan3 replaces OpenScan2’s “delay tuning” with a simple motion model: max_speed and acceleration . This post explains the new mental model (trapezoid vs triangle profiles) and gives a practical tuning guide to get smooth, reliable motor movement across devices."
-shopify_summary_html: |-
-  <div class="flex flex-col text-sm pb-25">
-  <article class="text-token-text-primary w-full focus:outline-none [--shadow-height:45px] has-data-writing-block:pointer-events-none has-data-writing-block:-mt-(--shadow-height) has-data-writing-block:pt-(--shadow-height) [&amp;:has([data-writing-block])&gt;*]:pointer-events-auto scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]" dir="auto" data-turn-id="request-69a9c03d-6ef4-838c-b120-d6eb9cdd2ffd-0" data-testid="conversation-turn-40" data-scroll-anchor="true" data-turn="assistant" tabindex="-1">
-  <div class="text-base my-auto mx-auto pb-10 [--thread-content-margin:var(--thread-content-margin-xs,calc(var(--spacing)*4))] @w-sm/main:[--thread-content-margin:var(--thread-content-margin-sm,calc(var(--spacing)*6))] @w-lg/main:[--thread-content-margin:var(--thread-content-margin-lg,calc(var(--spacing)*16))] px-(--thread-content-margin)">
-  <div class="[--thread-content-max-width:40rem] @w-lg/main:[--thread-content-max-width:48rem] mx-auto max-w-(--thread-content-max-width) flex-1 group/turn-messages focus-visible:outline-hidden relative flex w-full min-w-0 flex-col agent-turn" tabindex="-1">
-  <div class="flex max-w-full flex-col gap-4 grow">
-  <div data-message-author-role="assistant" data-message-id="b6def9bf-7036-4a9b-b660-757c88ad0939" dir="auto" data-message-model-slug="gpt-5-2-thinking" class="min-h-8 text-message relative flex w-full flex-col items-end gap-2 text-start break-words whitespace-normal [.text-message+&amp;]:mt-1">
-  <div class="flex w-full flex-col gap-1 empty:hidden">
-  <div class="markdown prose dark:prose-invert w-full wrap-break-word light markdown-new-styling">
-  <p data-start="0" data-end="272" data-is-last-node="" data-is-only-node="">OpenScan3 replaces OpenScan2’s “delay tuning” with a simple motion model: <strong data-start="74" data-end="87">max_speed</strong> and <strong data-start="92" data-end="108">acceleration</strong>. This post explains the new mental model (trapezoid vs triangle profiles) and gives a practical tuning guide to get smooth, reliable motor movement across devices.</p>
-  </div>
-  </div>
-  </div>
-  </div>
-  <div class="z-0 flex min-h-[46px] justify-start"><br></div>
-  <div class="mt-3 w-full empty:hidden">
-  <div class="text-center"><br></div>
-  </div>
-  </div>
-  </div>
-  </article>
-  </div>
 categories:
-  - "OpenScan Blog"
-tags:
   - "Firmware"
+tags:
+  - "openscan3"
+  - "firmware"
+  - "architecture"
+  - "how-to"
 image:
   path: "/assets/img/posts/2026-03-06-openscan3-firmware-smooth-moves/os3-motion-tuning-ba0710ed-016e-48e4-a8a5-8c0cbe45d79e.jpg"
 redirect_from:

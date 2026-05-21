@@ -6,9 +6,9 @@ description: "This post explains how OpenScan3 separates Projects and Scans to s
 shopify_summary_html: |-
   <p data-end="584" data-start="427">This post explains how OpenScan3 separates Projects and Scans to support multi-pass scanning, flexible capture strategies, and automation-friendly workflows.</p>
 categories:
-  - "OpenScan Blog"
-tags:
   - "Firmware"
+tags:
+  - "openscan3"
 image:
   path: "/assets/img/posts/2026-02-02-openscan3-firmware-projects-scans/os3-projects-and-scans-title-6a2efd02-ab87-4003-9c27-fb19f96c09db.jpg"
 redirect_from:

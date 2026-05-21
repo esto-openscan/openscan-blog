@@ -3,9 +3,10 @@ title: "OpenScanCloud + Drone Photogrammetry"
 date: "2021-11-01T11:30:00+01:00"
 author: "Thomas Megel"
 categories:
-  - "OpenScan Blog"
-tags:
   - "News"
+tags:
+  - "openscancloud"
+  - "drone-photogrammetry"
 image:
   path: "/assets/img/posts/2021-11-01-openscancloud-drone-photogrammetry/2021-11-01-drone-photogrammetry.webp"
 redirect_from:
