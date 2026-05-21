@@ -66,6 +66,23 @@ Use `--no-export-drafts` when you want to skip them. Shopify `summary_html` is
 exported as front matter: `description` contains a plain-text excerpt, and
 `shopify_summary_html` keeps the original HTML.
 
+## Cleaning Migrated Shopify Posts
+
+After migration, clean noisy Shopify/editor markup with:
+
+```shell
+git checkout -b chore/clean-migrated-posts
+python tools/clean_migrated_posts.py --dry-run
+python tools/clean_migrated_posts.py --write --backup
+git diff
+docker compose up --build
+git add _posts _drafts tools/clean_migrated_posts.py
+git commit -m "chore: clean migrated Shopify post markup"
+```
+
+The cleaner preserves YAML front matter, protects Liquid and code blocks, and
+keeps complex HTML such as iframes, figures, video, audio, and tables as HTML.
+
 ## Local development with Docker
 
 Build and start the local preview:

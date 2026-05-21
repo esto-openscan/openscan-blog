@@ -36,84 +36,92 @@ redirect_from:
   - "https://62f7a3-4.myshopify.com/blogs/news/openscan3-firmware-smooth-moves"
 ---
 
-<p><em>This is the a blog post in a series on the OpenScan3 firmware. Read the <a href="https://openscan.eu/blogs/news/openscan3-coordinate-system-why-%CF%86-%CE%B8-instead-of-x-y-z">previous post here</a>. Comments, questions, or suggestions are always very welcome and a great help for future work on the firmware!</em></p>
-<p><strong>tl;dr:</strong> OpenScan3&rsquo;s motor controller uses a simple motion model (max speed + acceleration) instead of &ldquo;delay tuning&rdquo;.<br/>The result is smoother motion, more predictable behavior, and easier configuration across devices.</p>
-<p>The first part of the post is about the rationale of the new motor contoller. If you just want to know how to tune the settings, <a href="#tuning-guide">skip right ahead to the practical guide</a>.</p>
-<h2>Why we entirely replaced the old motor control logic</h2>
-<p>OpenScan2 motion tuning mostly boiled down to step delays and a few ramp parameters. It worked, but it was hard to reason about:</p>
-<ul>
-<li>settings didn&rsquo;t map cleanly to real-world motion,</li>
-<li>tuning wasn&rsquo;t very transferable between devices,</li>
-<li>small changes could have big (and sometimes surprising) effects.</li>
-</ul>
-<p>If you&rsquo;re coming from OpenScan2, you might be looking for the old "delay" values.<br/>In OpenScan3, you typically don&rsquo;t need them anymore:<br/><code>max_speed</code> and <code>acceleration</code> give you a much more direct handle on how the device will move.</p>
-<p>With OpenScan3 we rebuilt the motor controller around a simple motion model:<br/><strong>accelerate &rarr; cruise &rarr; decelerate</strong>.</p>
-<p>Instead of tuning a <em>timer</em>, you tune <em>motion</em>.</p>
-<h2>The mental model</h2>
-<p>OpenScan3 uses a simple motion profile that should feel familiar from school physics:<br/><strong>uniform acceleration</strong> for start/stop, and (optionally) <strong>constant velocity</strong> in between.</p>
-<p>If we plot <strong>velocity over time</strong>, the shape is almost always one of these:</p>
-<ul>
-<li>
-<strong>Trapezoid:</strong> accelerate &rarr; cruise at <code>max_speed</code> &rarr; decelerate</li>
-<li>
-<strong>Triangle:</strong> accelerate &rarr; immediately decelerate (short move, never reaches <code>max_speed</code>)</li>
-</ul>
-<p><img alt="&ldquo;Schematic position-versus-time plot (degrees vs seconds) with two S-curves. The curves start flat, become steeper mid-move, and flatten again, illustrating smooth acceleration and deceleration and how different motion profiles change the timing and steepness of the movement.&rdquo;" src="/assets/img/posts/2026-03-06-openscan3-firmware-smooth-moves/os3-04-motion-1.jpg"/></p>
-<p><strong>Figure 1: Velocity over time (schematic)</strong><br/><br/></p>
-<p>If we plot spatial position against time, the smoothness of the motion is obvious:</p>
-<p><em><br/><img alt="Schematic plot of motor position (degrees) over time showing two S-shaped curves with the same final position: higher acceleration reaches the target sooner with a snappier start/stop, while lower acceleration ramps more gently and takes longer; note that slope approximately corresponds to velocity." src="/assets/img/posts/2026-03-06-openscan3-firmware-smooth-moves/os3-04-motion-2.jpg"/></em><em><br/></em><strong style="font-size: 0.875rem;">Figure 2: Position over time (schematic)<br/></strong><em style="font-size: 0.875rem;">The &ldquo;felt&rdquo; result: a smooth start/stop becomes a gentle S-curve rather than abrupt changes.</em></p>
-<p>Still not convinced? See here:<br/></p>
-<div style="max-width: 900px; margin: 1.2rem auto;">
-<div style="position: relative; width: 100%; aspect-ratio: 16 / 9;"><iframe src="https://www.youtube.com/embed/UDOgNwDDQuM?rel=0" style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;" title="OpenScan3 motor controller demo">
+*This is the a blog post in a series on the OpenScan3 firmware. Read the [previous post here](https://openscan.eu/blogs/news/openscan3-coordinate-system-why-%CF%86-%CE%B8-instead-of-x-y-z). Comments, questions, or suggestions are always very welcome and a great help for future work on the firmware!*
+
+**tl;dr:** OpenScan3’s motor controller uses a simple motion model (max speed + acceleration) instead of “delay tuning”.
+The result is smoother motion, more predictable behavior, and easier configuration across devices.
+
+The first part of the post is about the rationale of the new motor contoller. If you just want to know how to tune the settings, [skip right ahead to the practical guide](#tuning-guide).
+
+## Why we entirely replaced the old motor control logic
+
+OpenScan2 motion tuning mostly boiled down to step delays and a few ramp parameters. It worked, but it was hard to reason about:
+
+- settings didn’t map cleanly to real-world motion,
+- tuning wasn’t very transferable between devices,
+- small changes could have big (and sometimes surprising) effects.
+
+If you’re coming from OpenScan2, you might be looking for the old "delay" values.
+In OpenScan3, you typically don’t need them anymore:
+<code>max_speed</code> and <code>acceleration</code> give you a much more direct handle on how the device will move.
+
+With OpenScan3 we rebuilt the motor controller around a simple motion model:
+**accelerate → cruise → decelerate**.
+
+Instead of tuning a *timer*, you tune *motion*.
+
+## The mental model
+
+OpenScan3 uses a simple motion profile that should feel familiar from school physics:
+**uniform acceleration** for start/stop, and (optionally) **constant velocity** in between.
+
+If we plot **velocity over time**, the shape is almost always one of these:
+
+- **Trapezoid:** accelerate → cruise at <code>max_speed</code> → decelerate
+- **Triangle:** accelerate → immediately decelerate (short move, never reaches <code>max_speed</code>)
+
+![“Schematic position-versus-time plot (degrees vs seconds) with two S-curves. The curves start flat, become steeper mid-move, and flatten again, illustrating smooth acceleration and deceleration and how different motion profiles change the timing and steepness of the movement.”](/assets/img/posts/2026-03-06-openscan3-firmware-smooth-moves/os3-04-motion-1.jpg)
+
+**Figure 1: Velocity over time (schematic)**
+
+If we plot spatial position against time, the smoothness of the motion is obvious:
+
+*![Schematic plot of motor position (degrees) over time showing two S-shaped curves with the same final position: higher acceleration reaches the target sooner with a snappier start/stop, while lower acceleration ramps more gently and takes longer; note that slope approximately corresponds to velocity.](/assets/img/posts/2026-03-06-openscan3-firmware-smooth-moves/os3-04-motion-2.jpg)***Figure 2: Position over time (schematic)***The “felt” result: a smooth start/stop becomes a gentle S-curve rather than abrupt changes.*
+
+Still not convinced? See here:
+
+<div>
+<div><iframe src="https://www.youtube.com/embed/UDOgNwDDQuM?rel=0" title="OpenScan3 motor controller demo">
 </iframe></div>
 </div>
-<h2>The two settings that matter</h2>
-<p>There are many configuration fields in OpenScan3, but for motion quality there are basically two responsible:</p>
-<h3>1. <code>max_speed</code>
-</h3>
-<p>The maximum speed the motor is allowed to reach, measured in steps per second.<br/>Higher <code>max_speed</code> can reduce scan time, but it can also increase noise and vibration and the risk of skipped steps especially on high loads.</p>
-<h3>2. <code>acceleration</code>
-</h3>
-<p>How quickly the motor ramps up (and ramps down) its speed, measured in steps per second&sup2;.</p>
-<p>Acceleration is what makes motion feel &ldquo;snappy&rdquo; vs &ldquo;smooth&rdquo;:</p>
-<ul>
-<li>too high &rarr; jerky, harsh sound, higher chance of skipped steps</li>
-<li>lower &rarr; softer starts/stops, more forgiving</li>
-</ul>
-<h2 id="tuning-guide">Tuning guide</h2>
-<div style="display: grid; gap: 14px; margin: 18px 0;">
-<div style="border: 1px solid rgba(0,0,0,0.12); border-radius: 14px; padding: 14px 16px;">
-<p style="margin: 0 0 8px 0;"><strong>If motion feels too aggressive / jerky:</strong></p>
-<ul style="margin: 0; padding-left: 1.2em;">
-<li style="margin: 0;">reduce <code>acceleration</code>
-</li>
-</ul>
-</div>
-<div style="border: 1px solid rgba(0,0,0,0.12); border-radius: 14px; padding: 14px 16px;">
-<p style="margin: 0 0 8px 0;"><strong>If everything feels smooth but too slow overall:</strong></p>
-<ul style="margin: 0; padding-left: 1.2em;">
-<li style="margin: 0;">increase <code>max_speed</code>
-</li>
-</ul>
-</div>
-<div style="border: 1px solid rgba(0,0,0,0.12); border-radius: 14px; padding: 14px 16px;">
-<p style="margin: 0 0 8px 0;"><strong>If you hear rattling / the motor stalls / steps are skipped:</strong></p>
-<ul style="margin: 0; padding-left: 1.2em;">
-<li style="margin: 0;">reduce <code>max_speed</code>
-</li>
-<li style="margin: 0;">and/or reduce <code>acceleration</code>
-</li>
-<li style="margin: 0;">also check mechanical friction</li>
-</ul>
-</div>
-</div>
-<div style="border: 1px solid rgba(0,0,0,0.12); border-radius: 14px; padding: 14px 16px; margin: 18px 0;">
-<p style="margin: 0 0 10px 0;"><strong>A good workflow is:</strong></p>
-<ol style="margin: 0; padding-left: 1.2em;">
-<li style="margin: 0 0 6px 0;">Start with conservative <code>max_speed</code>
-</li>
-<li style="margin: 0 0 6px 0;">Increase <code>acceleration</code> until it starts feeling harsh</li>
-<li style="margin: 0 0 6px 0;">Back off a bit</li>
-<li style="margin: 0;">Increase <code>max_speed</code> until you hit the next limiting factor (noise, vibration, skipping), then back off</li>
-</ol>
-</div>
+
+## The two settings that matter
+
+There are many configuration fields in OpenScan3, but for motion quality there are basically two responsible:
+
+### 1. <code>max_speed</code>
+
+The maximum speed the motor is allowed to reach, measured in steps per second.
+Higher <code>max_speed</code> can reduce scan time, but it can also increase noise and vibration and the risk of skipped steps especially on high loads.
+
+### 2. <code>acceleration</code>
+
+How quickly the motor ramps up (and ramps down) its speed, measured in steps per second².
+
+Acceleration is what makes motion feel “snappy” vs “smooth”:
+
+- too high → jerky, harsh sound, higher chance of skipped steps
+- lower → softer starts/stops, more forgiving
+
+## Tuning guide
+
+**If motion feels too aggressive / jerky:**
+
+- reduce <code>acceleration</code>
+
+**If everything feels smooth but too slow overall:**
+
+- increase <code>max_speed</code>
+
+**If you hear rattling / the motor stalls / steps are skipped:**
+
+- reduce <code>max_speed</code>
+- and/or reduce <code>acceleration</code>
+- also check mechanical friction
+
+**A good workflow is:**
+
+1. Start with conservative <code>max_speed</code>
+2. Increase <code>acceleration</code> until it starts feeling harsh
+3. Back off a bit
+4. Increase <code>max_speed</code> until you hit the next limiting factor (noise, vibration, skipping), then back off

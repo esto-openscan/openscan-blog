@@ -15,25 +15,42 @@ redirect_from:
   - "https://62f7a3-4.myshopify.com/blogs/news/scanning-white-objects-with-the-help-of-uv-powder"
 ---
 
-<p class="j1LEL va-er" data-mce-fragment="1" data-pm-slice="1 1 []" dir="ltr" id="foo" indentation="0" textstyle="[object Object]"><span data-mce-fragment="1" dir="auto">Photogrammetry requires an object to have a lot of surface features. For this reason, plastic and metal objects almost always need some kind of preparation (see the <a class="Y-s64 XzMaT" data-hook="WebLink" data-mce-fragment="1" data-mce-href="https://en.openscan.eu/scan-gallery" href="https://en.openscan.eu/scan-gallery" target="_blank"><u data-mce-fragment="1">scan gallery</u></a> for many examples). My normal workflow includes spraying the object with scanning or chalk spray and creating a very fine layer of thousands of sprinkles. Unfortunately, scanning spray only comes in the color white and chalk spray with a different color tends to leave some stain afte<em data-mce-fragment="1">r washing/removing.</em></span></p>
-<p class="j1LEL va-er" data-mce-fragment="1" dir="auto" id="3tf31" indentation="0" textstyle="[object Object]"><span data-mce-fragment="1">A few days ago, there was an interesting <a class="Y-s64 XzMaT" data-hook="WebLink" data-mce-fragment="1" data-mce-href="https://www.reddit.com/r/photogrammetry/comments/sri4wi/new_way_scan/" href="https://www.reddit.com/r/photogrammetry/comments/sri4wi/new_way_scan/" target="_blank"><u data-mce-fragment="1">post</u></a> on <a class="Y-s64 XzMaT" data-hook="WebLink" data-mce-fragment="1" data-mce-href="https://www.reddit.com/r/photogrammetry" href="https://www.reddit.com/r/photogrammetry" target="_blank"><u data-mce-fragment="1">/r/photogrammetry</u></a> by user <a class="Y-s64 XzMaT" data-hook="WebLink" data-mce-fragment="1" data-mce-href="https://www.reddit.com/user/FacTrans/" href="https://www.reddit.com/user/FacTrans/" target="_blank"><u data-mce-fragment="1">/u/factrans</u></a> demonstrating the use of UV-phosphorescent liquid to spray the object. The spray seems to be mostly invisible under normal lighting, but glows brightly under UV.</span></p>
-<p class="j1LEL va-er" data-mce-fragment="1" dir="auto" id="ftlpp" indentation="0" textstyle="[object Object]"><span data-mce-fragment="1">Since I already had the two necessary components lying around, I had to give this idea a try. First, I just swapped four of the ring lights LEDs with their UV counterparts. Next, I filled a tiny amount of UV powder (&lt;0.1g) into a small Ziploc bag. (Hope local authorities don't get confused here..). I then placed the object into the bag and shook it in order to fully cover the figurine with powder.</span></p>
-<div style="text-align: center;"><img alt="" src="/assets/img/posts/2022-02-15-scanning-white-objects-with-the-help-of-uv-powder/2022-02-15-scanning-uv-spray1-600x600.webp" style="float: none;"/></div>
-<div class="j1LEL va-er" data-pm-slice="1 1 []" dir="auto" id="3blln" indentation="0" style="text-align: center;" textstyle="[object Object]"><span><em>remains after trying to clean the UV powder</em></span></div>
-<div class="j1LEL va-er" data-pm-slice="1 1 []" dir="auto" indentation="0" style="text-align: center;" textstyle="[object Object]"><span><em></em></span></div>
-<p class="j1LEL va-er" dir="auto" id="51ohk" indentation="0" textstyle="[object Object]"><span>The most difficult part was finding a suitable scan object. I tried various 3d printed figurines light to dark gray, but the powder is quite visible even under normal light. </span></p>
-<p class="j1LEL va-er" dir="auto" id="3u74j" indentation="0" textstyle="[object Object]"><span>Even after intense cleaning, it was still visible in both UV and normal light (see above).</span></p>
-<p class="j1LEL va-er" dir="auto" id="c3jeh" indentation="0" textstyle="[object Object]"><span>I finally settled on a white printed duplicate of a local sculpture.</span></p>
-<div style="text-align: center;"><img alt="" src="/assets/img/posts/2022-02-15-scanning-white-objects-with-the-help-of-uv-powder/2022-02-15-scanning-uv-spray2-600x600.webp" style="float: none;"/></div>
-<div class="j1LEL va-er" data-pm-slice="1 1 []" dir="auto" id="6jhno" indentation="0" style="text-align: center;" textstyle="[object Object]"><span><em>3d printed lion, 5cm long covered in UV powder - left: UV LED on, right: off</em></span></div>
-<div class="j1LEL va-er" data-pm-slice="1 1 []" dir="auto" indentation="0" style="text-align: center;" textstyle="[object Object]"><span><em></em></span></div>
-<p class="j1LEL va-er" dir="auto" id="fdus5" indentation="0" textstyle="[object Object]"><span>The white lion would be impossible to be scanned with photogrammetry, as there are almost no clearly identifiable features on the surface. I assume, that even structured light scanners would have quite a hard time, as the material PLA is quite translucent causing a lot of sub surface scattering (which is a story for another time).</span></p>
-<p class="j1LEL va-er" dir="auto" id="9frea" indentation="0" textstyle="[object Object]"><span>BUT turning on the UV LEDs revealed many visible features created by the powder. I created an image set of 120 photos with the <a class="Y-s64 XzMaT" data-hook="WebLink" href="https://www.openscan.eu/openscan-mini" target="_blank"><u>OpenScan Mini</u></a> and uploaded it to the <a class="Y-s64 XzMaT" data-hook="WebLink" href="https://www.openscan.eu/openscan-cloud" target="_blank"><u>OpenScanCloud</u></a>. Processing took less than 3 minutes and returned the following result:</span></p>
-<div style="text-align: center;"><img alt="" src="/assets/img/posts/2022-02-15-scanning-white-objects-with-the-help-of-uv-powder/2022-02-15-scanning-uv-spray3-600x600.webp" style="float: none;"/></div>
-<p class="j1LEL va-er" data-pm-slice="1 1 []" dir="auto" id="7a7dl" indentation="0" textstyle="[object Object]"><span>The arrow marks an area, where you can clearly see the used printing layer height of 0.2mm. Even though this is not my best 3d scan ever, you can see a lot of printing artifacts too.</span></p>
-<div style="text-align: center;"><img alt="" src="/assets/img/posts/2022-02-15-scanning-white-objects-with-the-help-of-uv-powder/2022-02-15-scanning-uv-spray4-600x600.webp" style="float: none;"/></div>
-<p class="j1LEL va-er" data-pm-slice="1 1 []" dir="auto" id="bptrr" indentation="0" style="text-align: center;" textstyle="[object Object]"><em>Here you can see a sticker with a thickness of 0.08mm, which I use to label the kind of material + brand.</em></p>
-<h3 class="vGBkk sWzLp" dir="auto" id="3mqir" indentation="0" level="3" textstyle="[object Object]"><span>Summary</span></h3>
-<p class="j1LEL va-er" dir="auto" id="eihm6" indentation="0" textstyle="[object Object]"><span>Using phosphorescence to create additional features for photogrammetry is an interesting approach and might be useful in some cases. This was a fun little experiment and I will definitely revisit this procedure in the future. It might be worth looking into alternatives to the UV powder, and maybe try IR phosphorescent materials as well. One more note, apparently PLA is not translucent to UV light and thus my polarizer did not work/could not be used with the UV LEDs.</span></p>
-<p class="j1LEL va-er" dir="auto" id="errs" indentation="0" textstyle="[object Object]"><span>But the main challenge remains: how to create temporary and fully removable features on pale objects without using any solvents?! </span></p>
-<p class="j1LEL va-er" dir="auto" id="b27vd" indentation="0" textstyle="[object Object]"><span>L̶e̶t̶ ̶m̶e̶ ̶k̶n̶o̶w̶ ̶i̶f̶ ̶y̶o̶u̶ ̶a̶r̶e̶ ̶i̶n̶t̶e̶r̶e̶s̶t̶e̶d̶ ̶i̶n̶ ̶a̶ ̶U̶V̶ ̶v̶e̶r̶s̶i̶o̶n̶ ̶o̶f̶ ̶t̶h̶e̶ ̶r̶i̶n̶g̶ ̶l̶i̶g̶h̶t̶,̶ ̶w̶h̶i̶c̶h̶ ̶h̶a̶s̶ ̶t̶w̶o̶ ̶m̶o̶d̶e̶s̶,̶ ̶U̶V̶ ̶a̶n̶d̶ ̶n̶o̶r̶m̶a̶l̶.̶( Not possible due to IP issues)</span></p>
+Photogrammetry requires an object to have a lot of surface features. For this reason, plastic and metal objects almost always need some kind of preparation (see the [scan gallery](https://en.openscan.eu/scan-gallery) for many examples). My normal workflow includes spraying the object with scanning or chalk spray and creating a very fine layer of thousands of sprinkles. Unfortunately, scanning spray only comes in the color white and chalk spray with a different color tends to leave some stain afte*r washing/removing.*
+
+A few days ago, there was an interesting [post](https://www.reddit.com/r/photogrammetry/comments/sri4wi/new_way_scan/) on [/r/photogrammetry](https://www.reddit.com/r/photogrammetry) by user [/u/factrans](https://www.reddit.com/user/FacTrans/) demonstrating the use of UV-phosphorescent liquid to spray the object. The spray seems to be mostly invisible under normal lighting, but glows brightly under UV.
+
+Since I already had the two necessary components lying around, I had to give this idea a try. First, I just swapped four of the ring lights LEDs with their UV counterparts. Next, I filled a tiny amount of UV powder (<0.1g) into a small Ziploc bag. (Hope local authorities don't get confused here..). I then placed the object into the bag and shook it in order to fully cover the figurine with powder.
+
+![](/assets/img/posts/2022-02-15-scanning-white-objects-with-the-help-of-uv-powder/2022-02-15-scanning-uv-spray1-600x600.webp)
+
+*remains after trying to clean the UV powder*
+
+The most difficult part was finding a suitable scan object. I tried various 3d printed figurines light to dark gray, but the powder is quite visible even under normal light.
+
+Even after intense cleaning, it was still visible in both UV and normal light (see above).
+
+I finally settled on a white printed duplicate of a local sculpture.
+
+![](/assets/img/posts/2022-02-15-scanning-white-objects-with-the-help-of-uv-powder/2022-02-15-scanning-uv-spray2-600x600.webp)
+
+*3d printed lion, 5cm long covered in UV powder - left: UV LED on, right: off*
+
+The white lion would be impossible to be scanned with photogrammetry, as there are almost no clearly identifiable features on the surface. I assume, that even structured light scanners would have quite a hard time, as the material PLA is quite translucent causing a lot of sub surface scattering (which is a story for another time).
+
+BUT turning on the UV LEDs revealed many visible features created by the powder. I created an image set of 120 photos with the [OpenScan Mini](https://www.openscan.eu/openscan-mini) and uploaded it to the [OpenScanCloud](https://www.openscan.eu/openscan-cloud). Processing took less than 3 minutes and returned the following result:
+
+![](/assets/img/posts/2022-02-15-scanning-white-objects-with-the-help-of-uv-powder/2022-02-15-scanning-uv-spray3-600x600.webp)
+
+The arrow marks an area, where you can clearly see the used printing layer height of 0.2mm. Even though this is not my best 3d scan ever, you can see a lot of printing artifacts too.
+
+![](/assets/img/posts/2022-02-15-scanning-white-objects-with-the-help-of-uv-powder/2022-02-15-scanning-uv-spray4-600x600.webp)
+
+*Here you can see a sticker with a thickness of 0.08mm, which I use to label the kind of material + brand.*
+
+### Summary
+
+Using phosphorescence to create additional features for photogrammetry is an interesting approach and might be useful in some cases. This was a fun little experiment and I will definitely revisit this procedure in the future. It might be worth looking into alternatives to the UV powder, and maybe try IR phosphorescent materials as well. One more note, apparently PLA is not translucent to UV light and thus my polarizer did not work/could not be used with the UV LEDs.
+
+But the main challenge remains: how to create temporary and fully removable features on pale objects without using any solvents?!
+
+L̶e̶t̶ ̶m̶e̶ ̶k̶n̶o̶w̶ ̶i̶f̶ ̶y̶o̶u̶ ̶a̶r̶e̶ ̶i̶n̶t̶e̶r̶e̶s̶t̶e̶d̶ ̶i̶n̶ ̶a̶ ̶U̶V̶ ̶v̶e̶r̶s̶i̶o̶n̶ ̶o̶f̶ ̶t̶h̶e̶ ̶r̶i̶n̶g̶ ̶l̶i̶g̶h̶t̶,̶ ̶w̶h̶i̶c̶h̶ ̶h̶a̶s̶ ̶t̶w̶o̶ ̶m̶o̶d̶e̶s̶,̶ ̶U̶V̶ ̶a̶n̶d̶ ̶n̶o̶r̶m̶a̶l̶.̶( Not possible due to IP issues)
