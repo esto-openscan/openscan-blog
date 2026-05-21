@@ -30,3 +30,6 @@ npm-debug.log*
 _sass/vendors
 assets/js/dist
 .venv/
+migration_redirects.csv
+migration_raw/
+_drafts/

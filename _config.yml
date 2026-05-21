@@ -215,6 +215,9 @@ exclude:
   - tools
   - README.md
   - LICENSE
+  - migration_redirects.csv
+  - migration_raw
+  - _drafts
   - purgecss.js
   - "*.config.js"
   - "package*.json"
