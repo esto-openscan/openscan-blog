@@ -1,0 +1,15 @@
+Creative Commons Attribution-ShareAlike 4.0 International
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+
+This notice refers to the Creative Commons Attribution-ShareAlike 4.0
+International license.
+
+Human-readable summary:
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Full legal code:
+https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+The summary is not a substitute for the license. Reuse of covered material must
+follow the full legal code.

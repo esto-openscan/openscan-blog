@@ -5,7 +5,7 @@ Required packages:
     pip install requests beautifulsoup4
 
 Configuration:
-    SHOPIFY_SHOP=openscan.myshopify.com  # or openscan
+    SHOPIFY_SHOP=your-shop.myshopify.com  # or your-shop
     SHOPIFY_ADMIN_TOKEN=...              # preferred when available
     SHOPIFY_CLIENT_ID=...                # fallback with SHOPIFY_CLIENT_SECRET
     SHOPIFY_CLIENT_SECRET=...
@@ -315,7 +315,7 @@ def load_config(args: argparse.Namespace) -> Config:
     output_dir = Path(os.environ.get("OUTPUT_DIR", ".")).expanduser().resolve()
 
     if not shop:
-        raise ValueError("SHOPIFY_SHOP is required, for example openscan.myshopify.com or openscan")
+        raise ValueError("SHOPIFY_SHOP is required, for example your-shop.myshopify.com or your-shop")
     if not token and not (client_id and client_secret):
         raise ValueError(
             "Set SHOPIFY_ADMIN_TOKEN, or set both SHOPIFY_CLIENT_ID and SHOPIFY_CLIENT_SECRET "
