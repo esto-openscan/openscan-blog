@@ -25,6 +25,47 @@ This starter bundles those files from the latest **Chirpy** release along with a
 
 Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
 
+## Shopify Blog Migration
+
+The one-off Shopify-to-Jekyll migration script lives at `tools/shopify_to_jekyll.py`.
+It is read-only for Shopify blog content. The only POST it can send to Shopify is
+the optional OAuth client credentials token exchange at `/admin/oauth/access_token`.
+
+Install the Python dependencies in a local environment:
+
+```shell
+pip install requests beautifulsoup4
+```
+
+Use an existing Admin API access token:
+
+```shell
+export SHOPIFY_SHOP="openscan.myshopify.com"
+export SHOPIFY_ADMIN_TOKEN="..."
+python3 tools/shopify_to_jekyll.py --dry-run
+```
+
+Or use the Shopify Dev Dashboard client credentials flow:
+
+```shell
+export SHOPIFY_SHOP="openscan"
+export SHOPIFY_CLIENT_ID="..."
+export SHOPIFY_CLIENT_SECRET="..."
+python3 tools/shopify_to_jekyll.py --dry-run
+```
+
+Optional variables:
+
+```shell
+export SHOPIFY_API_VERSION="2026-01"
+export OUTPUT_DIR="/path/to/jekyll/repo"
+```
+
+Unpublished Shopify articles are fetched by default and written to `_drafts/`.
+Use `--no-export-drafts` when you want to skip them. Shopify `summary_html` is
+exported as front matter: `description` contains a plain-text excerpt, and
+`shopify_summary_html` keeps the original HTML.
+
 ## Local development with Docker
 
 Build and start the local preview:

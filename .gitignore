@@ -29,3 +29,4 @@ npm-debug.log*
 # Misc
 _sass/vendors
 assets/js/dist
+.venv/
