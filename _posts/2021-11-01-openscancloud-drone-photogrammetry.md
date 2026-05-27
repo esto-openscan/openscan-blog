@@ -28,7 +28,7 @@ This scan is just too good, so I will just let the raw results speak for itself:
 
 ![](/assets/img/posts/2021-11-01-openscancloud-drone-photogrammetry/2021-11-01-drone-photogrammetry3-600x600.webp)
 
-With my current capabilities, I should be able to process several terabytes of image data per month. But if there is enough interest and support, I could increase it even further. For now, the testing continues and if you have not joined yet, get your access token by emailing me to [cloud@openscan.eu](cloud@openscan.eu.). I will try everything to keep this service free-of-charge for individuals and only relying on donations. I want to help people to get into photogrammetry and produce some high-quality output without the need for expensive software + hardware.
+With my current capabilities, I should be able to process several terabytes of image data per month. But if there is enough interest and support, I could increase it even further. For now, the testing continues and if you have not joined yet, get your access token by emailing me to [cloud@openscan.eu](mailto:cloud@openscan.eu). I will try everything to keep this service free-of-charge for individuals and only relying on donations. I want to help people to get into photogrammetry and produce some high-quality output without the need for expensive software + hardware.
 
 If you can, please consider supporting the project through [Patreon](https://www.patreon.com/OpenScan) or sharing this or other pages on social media to help spread the news :)
 

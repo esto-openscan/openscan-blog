@@ -37,7 +37,7 @@ which will download and install the latest beta firmware.
 
 ### OpenScanCloud Settings
 
-The only thing needed is a personal token, which you can easily apply for by sending an email to [cloud@openscan.eu](cloud@openscan.eu). You will then need to enter the token in the OpenScanCloud Settings Tab (in this example: *4x1c1128e*...):
+The only thing needed is a personal token, which you can easily apply for by sending an email to [cloud@openscan.eu](mailto:cloud@openscan.eu). You will then need to enter the token in the OpenScanCloud Settings Tab (in this example: *4x1c1128e*...):
 
 ![](/assets/img/posts/2021-10-11-new-firmware-with-cloud-functionality-for-openscan-classic-mini-beta/2021-10-12-osc-firmware1-600x600.webp)
 
@@ -69,7 +69,7 @@ I have scanned this 9 cm tall figurine with the OpenScanMini and took a total of
 
 So far, I have tested the engine with over 50.000 images in 700 photo sets and the robustness and speed are quite impressive.
 
-Feel free to join the testing by sending me a mail to [cloud@openscan.eu](cloud@openscan.eu) and let me know what you think.
+Feel free to join the testing by sending me a mail to [cloud@openscan.eu](mailto:cloud@openscan.eu) and let me know what you think.
 
 Best regards,
 

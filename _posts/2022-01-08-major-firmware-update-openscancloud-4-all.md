@@ -42,7 +42,7 @@ Upon first usage, you will need to register by giving your name + email address.
 
 Once you received the registration email, you can enter the token and use the cloud processing.
 
-In case you run out of "credit", just send me a mail to [cloud@openscan.eu](cloud@openscan.eu). (In the future, i might remove those limits)
+In case you run out of "credit", just send me a mail to [cloud@openscan.eu](mailto:cloud@openscan.eu). (In the future, i might remove those limits)
 
 ### **Changelog on GitHub**
 
@@ -54,4 +54,4 @@ I will do everything I can to keep this functionality free and open. In case you
 
 ### **Little Promotion**
 
-To start this new year, I offer free worldwide shipping with the coupon code '**2022willbegreat**', which is valid till 15th of January and can be applied on all orders at [www.openscan.eu/shop](www.openscan.eu/shop) over €50.
+To start this new year, I offer free worldwide shipping with the coupon code '**2022willbegreat**', which is valid till 15th of January and can be applied on all orders at [www.openscan.eu/shop](https://www.openscan.eu/shop) over €50.

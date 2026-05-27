@@ -33,7 +33,7 @@ I finally managed to measure the amazing accuracy, which is possible with those 
 
 ![](/assets/img/posts/2022-06-08-openscan-mini-makemagazin-de-and-more-news/2022-06-08-makemagazin2-600x600.webp)
 
-### The Arducam IMX519 is running very reliably and the firmware has been updated quite a bit (see [GitHub](http://github.com/OpenScanEu/OpenScan2))
+### The Arducam IMX519 is running very reliably and the firmware has been updated quite a bit (see [GitHub](https://github.com/OpenScanEu/OpenScan2))
 
 By the way, I am currently in the process of migrating a lot of content from this website to GitHub to create a more cooperative and centralized structure.
 

@@ -26,7 +26,7 @@ Note, that I am not familiar with working with texture maps at all. So I need yo
 
 ### Christmas Promo - Free worldwide shipping
 
-As a little gift, I will offer free worldwide shipping on all orders from [www.openscan.eu/shop](www.openscan.eu/shop) above 50€ for the next two weeks. Just use the coupon code ***2022willbegreat***on checkout.
+As a little gift, I will offer free worldwide shipping on all orders from [www.openscan.eu/shop](https://www.openscan.eu/shop) above 50€ for the next two weeks. Just use the coupon code ***2022willbegreat***on checkout.
 
 This will probably be the last update for this year. I wish you a Merry Christmas (or similar ;). Stay safe and have a great start into the new year :)
 

@@ -16,7 +16,7 @@ redirect_from:
 
 It is now possible to use a python script to upload image files for processing on my servers.
 
-Follow [https://github.com/OpenScanEu/OpenScanCloud](https://github.com/OpenScanEu/OpenScanCloud) for the current state and any future code updates. There is a very simple code snippet available, where you just need to specify your image folder, a temporary working directory and add a token, which can be obtained by sending an inquiry to [cloud@openscan.eu](cloud@openscan.eu) (this will be automated at some point in the future).
+Follow [https://github.com/OpenScanEu/OpenScanCloud](https://github.com/OpenScanEu/OpenScanCloud) for the current state and any future code updates. There is a very simple code snippet available, where you just need to specify your image folder, a temporary working directory and add a token, which can be obtained by sending an inquiry to [cloud@openscan.eu](mailto:cloud@openscan.eu) (this will be automated at some point in the future).
 
 There is also a Windows uploader, but as the code is changing almost every day, I just post a screenshot here. (If you are interested in testing this one, just send me a mail too)
 

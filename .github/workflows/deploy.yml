@@ -1,0 +1,52 @@
+name: Build and deploy blog
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - ".gitignore"
+      - "README.md"
+      - "LICENSE"
+      - "_drafts/**"
+  workflow_dispatch:
+
+concurrency:
+  group: "ftps-deploy"
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.4
+          bundler-cache: true
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      - name: Test site
+        run: |
+          bundle exec htmlproofer _site \
+            --disable-external \
+            --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/,/^http:\/\/openscanpi/"
+
+      - name: Deploy via FTPS
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.HETZNER_FTP_SERVER }}
+          username: ${{ secrets.HETZNER_FTP_USER }}
+          password: ${{ secrets.HETZNER_FTP_PASS }}
+          protocol: ftps
+          port: 21
+          local-dir: ./_site/
+          server-dir: ${{ secrets.HETZNER_FTP_DIR }}

@@ -50,7 +50,7 @@ Here you can see one of the photos from the above-mentioned photo set. See how I
 
 ![](/assets/img/posts/2021-08-23-tutorial-scanning-a-metal-key-with-the-right-amount-of-scanning-chalk-spray/2021-08-23-scanned-keys2-600x600.webp)
 
-The photos were taken with the [OpenScan Mini](www.openscan.eu/openscan-mini). You can see the structure of the scanner in the background.
+The photos were taken with the [OpenScan Mini](https://www.openscan.eu/openscan-mini). You can see the structure of the scanner in the background.
 
 Note, that there are no distinct spots or dots in the background, which was achieved by the use of a cross-polarization setup as included in the kit.
 

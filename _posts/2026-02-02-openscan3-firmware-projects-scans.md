@@ -107,7 +107,7 @@ In OpenScan3, *Projects* are object-centric and approachable.
 
 This gives newcomers a clear mental model and a straightforward workflow, while offering experienced users and developers well-defined extension points for automation, customization and future features.
 
-*If you have thoughts, questions, suggestions, or want to contribute we would love hearing from you. You can reach out via*[*e-mail*](mailto:esto@openscan.eu)*, join the*[*Discord*](https://discord.gg/eBdqtdkXyF)*or create issues on*[*GitHub/OpenScan3*]([https://github.com/OpenScan-org/OpenScan3](https://github.com/OpenScan-org/OpenScan3))*.*
+*If you have thoughts, questions, suggestions, or want to contribute we would love hearing from you. You can reach out via*[*e-mail*](mailto:esto@openscan.eu)*, join the*[*Discord*](https://discord.gg/eBdqtdkXyF)*or create issues on*[*GitHub/OpenScan3*](https://github.com/OpenScan-org/OpenScan3)*.*
 
 ---
 

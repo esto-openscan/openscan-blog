@@ -20,7 +20,7 @@ I just released the next update for the OpenScanCloud: An application, where you
 
 Just download the executable file from the [GitHub Project Page](https://github.com/OpenScanEu/OpenScanCloud/blob/main/README.md#current-functionality--desktop-uploader-for-windows--download). You just need to unpack the zip file and start the *OpenScanCloud.exe*.
 
-Insert your personal token, which can be obtained by sending a personal email to [cloud@openscan.eu](cloud@openscan.eu) (which will be automated in the future). After the first start of the application, you need to enter the token, and you are good to go.
+Insert your personal token, which can be obtained by sending a personal email to [cloud@openscan.eu](mailto:cloud@openscan.eu) (which will be automated in the future). After the first start of the application, you need to enter the token, and you are good to go.
 
 Select an image set, click *start processing.*The uploading and processing is fully automated, and you will shortly get the resulting 3d model by email.
 
