@@ -328,7 +328,7 @@ html[data-mode="dark"] #sidebar #avatar {
 
     #post-list .card .card-body {
       display: block;
-      padding: 1.25rem 1.5rem 1.1rem;
+      padding: 0;
     }
 
     #post-list .card .card-body .card-title {
@@ -372,11 +372,20 @@ html[data-mode="dark"] #sidebar #avatar {
       flex: 1 1 0;
       width: auto;
       min-width: 0;
+      padding: 1.35rem 1.75rem 1.2rem;
     }
 
     #post-list .card .card-body {
       min-height: 10.5rem;
-      padding: 1.25rem 1.5rem 1.1rem;
+      padding: 0;
+    }
+
+    .categories.card .card-header {
+      padding: 1rem 1.25rem;
+    }
+
+    #page-category .content > li {
+      padding: 0.65rem 1rem !important;
     }
   }
 }
