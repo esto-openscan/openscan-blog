@@ -1,5 +1,5 @@
 ---
-title: "The OpenScan Blog has moved (and looks so much better now!)"
+title: "The OpenScan Blog has moved (and is nicer to read now)"
 date: "2026-05-27T15:16:12+02:00"
 author: "Elias Stognienko"
 description: "A short note about moving the OpenScan blog to its new home on Jekyll, with Chirpy as the theme."
