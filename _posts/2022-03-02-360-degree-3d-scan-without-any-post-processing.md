@@ -14,7 +14,7 @@ image:
   path: "/assets/img/posts/2022-03-02-360-degree-3d-scan-without-any-post-processing/2022-03-02-360degree-scanning1.webp"
 redirect_from:
   - "/blogs/news/360-degree-3d-scan-without-any-post-processing"
-  - "https://62f7a3-4.myshopify.com/blogs/news/360-degree-3d-scan-without-any-post-processing"
+  - "https://openscan.eu/blogs/news/360-degree-3d-scan-without-any-post-processing"
 ---
 
 This post will guide you through the process of creating a complete 3d model using the OpenScanCloud and the newly introduced "combine" function in the latest beta firmware

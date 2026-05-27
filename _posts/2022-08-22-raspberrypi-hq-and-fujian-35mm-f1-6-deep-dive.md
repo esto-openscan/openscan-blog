@@ -12,7 +12,7 @@ image:
   path: "/assets/img/posts/2022-08-22-raspberrypi-hq-and-fujian-35mm-f1-6-deep-dive/2022-08-22-fujian-deepdive-09.webp"
 redirect_from:
   - "/blogs/news/raspberrypi-hq-and-fujian-35mm-f1-6-deep-dive"
-  - "https://62f7a3-4.myshopify.com/blogs/news/raspberrypi-hq-and-fujian-35mm-f1-6-deep-dive"
+  - "https://openscan.eu/blogs/news/raspberrypi-hq-and-fujian-35mm-f1-6-deep-dive"
 ---
 
 **by MichaelX**

@@ -13,7 +13,7 @@ image:
   path: "/assets/img/posts/2025-02-04-polarizer-module-for-openscan-classic/img-8849.jpg"
 redirect_from:
   - "/blogs/news/polarizer-module-for-openscan-classic"
-  - "https://62f7a3-4.myshopify.com/blogs/news/polarizer-module-for-openscan-classic"
+  - "https://openscan.eu/blogs/news/polarizer-module-for-openscan-classic"
 ---
 
 Cross-polarisation can greatly improve the image quality and thus the resulting 3D scans. Therefore, we have developed the [polarizer module](https://openscan.eu/products/polarizer-module-for-openscan-classic) for the [OpenScan Classic](https://openscan.eu/products/openscan-classic), that does exactly that.

@@ -12,7 +12,7 @@ image:
   path: "/assets/img/posts/2021-09-27-scantheworld-lion-sculpture-in-halle-saale/2021-09-22-scantheworld-lion.webp"
 redirect_from:
   - "/blogs/news/scantheworld-lion-sculpture-in-halle-saale"
-  - "https://62f7a3-4.myshopify.com/blogs/news/scantheworld-lion-sculpture-in-halle-saale"
+  - "https://openscan.eu/blogs/news/scantheworld-lion-sculpture-in-halle-saale"
 ---
 
 This is probably one of the most famous sculptures in my town, and thus it needed to be scanned ;) I will try to collect as many digital souvenirs of various places, and maybe some of you want to join.

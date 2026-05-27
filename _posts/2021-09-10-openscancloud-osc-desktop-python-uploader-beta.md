@@ -11,7 +11,7 @@ image:
   path: "/assets/img/posts/2021-09-10-openscancloud-osc-desktop-python-uploader-beta/2021-09-10-osc-uploader.webp"
 redirect_from:
   - "/blogs/news/openscancloud-osc-desktop-python-uploader-beta"
-  - "https://62f7a3-4.myshopify.com/blogs/news/openscancloud-osc-desktop-python-uploader-beta"
+  - "https://openscan.eu/blogs/news/openscancloud-osc-desktop-python-uploader-beta"
 ---
 
 It is now possible to use a python script to upload image files for processing on my servers.

@@ -15,7 +15,7 @@ image:
   path: "/assets/img/posts/2026-02-04-ordering-from-the-us-no-hidden-fees-no-surprises/flickr-noricum-parcel-cc-by-sa2-0-87a73aba-c68f-4f69-82d7-8318f85338b4.jpg"
 redirect_from:
   - "/blogs/news/ordering-from-the-us-no-hidden-fees-no-surprises"
-  - "https://62f7a3-4.myshopify.com/blogs/news/ordering-from-the-us-no-hidden-fees-no-surprises"
+  - "https://openscan.eu/blogs/news/ordering-from-the-us-no-hidden-fees-no-surprises"
 ---
 
 **Last update:** April 2026

@@ -11,7 +11,7 @@ image:
   path: "/assets/img/posts/2021-10-28-mobile-scanning-preparing-a-major-update/2021-10-28-firmware-improvements.webp"
 redirect_from:
   - "/blogs/news/mobile-scanning-preparing-a-major-update"
-  - "https://62f7a3-4.myshopify.com/blogs/news/mobile-scanning-preparing-a-major-update"
+  - "https://openscan.eu/blogs/news/mobile-scanning-preparing-a-major-update"
 ---
 
 Everyone who has set up an OpenScan device will know the following nuisance: You have spent quite some time assembling the 3D-printed parts, connected all the wires and finally want to boot the Raspberry Pi for the first time. But before that, you will have to take the Micro-SD-Card to your PC, create and open the WPA-Supplicant.conf file and add your Wi-Fi settings... And of course, this has to be repeated every time you want to connect to a new network.

@@ -13,7 +13,7 @@ image:
   path: "/assets/img/posts/2026-04-16-openscan3-firmware-quick-start/os3-quickstart-9ceb2653-685c-4333-8bfa-89509fc6266c.jpg"
 redirect_from:
   - "/blogs/news/openscan3-firmware-quick-start"
-  - "https://62f7a3-4.myshopify.com/blogs/news/openscan3-firmware-quick-start"
+  - "https://openscan.eu/blogs/news/openscan3-firmware-quick-start"
 ---
 
 This post explains how to get started with OpenScan3 and covers the most common setup issues during installation and first boot.

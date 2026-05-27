@@ -12,7 +12,7 @@ image:
   path: "/assets/img/posts/2025-02-07-bambulab-infinimod/img-8901.jpg"
 redirect_from:
   - "/blogs/news/bambulab_infinimod"
-  - "https://62f7a3-4.myshopify.com/blogs/news/bambulab_infinimod"
+  - "https://openscan.eu/blogs/news/bambulab_infinimod"
 ---
 
 ## TLDR

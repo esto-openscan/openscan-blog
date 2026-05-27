@@ -10,7 +10,7 @@ image:
   path: "/assets/img/posts/2026-01-15-new-years-recap-and-outlook/recap2025-openscan-5f074abd-0f32-4462-bf5a-6b6e9f50a2ba.jpg"
 redirect_from:
   - "/blogs/news/new-years-recap-and-outlook"
-  - "https://62f7a3-4.myshopify.com/blogs/news/new-years-recap-and-outlook"
+  - "https://openscan.eu/blogs/news/new-years-recap-and-outlook"
 ---
 
 # **Recap of 2025**

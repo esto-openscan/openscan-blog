@@ -11,7 +11,7 @@ image:
   path: "/assets/img/posts/2022-01-28-update-on-the-upcoming-openscan-firmware-release-imx519-other-changes/2022-01-28-firmware-stacking1.webp"
 redirect_from:
   - "/blogs/news/update-on-the-upcoming-openscan-firmware-release-imx519-other-changes"
-  - "https://62f7a3-4.myshopify.com/blogs/news/update-on-the-upcoming-openscan-firmware-release-imx519-other-changes"
+  - "https://openscan.eu/blogs/news/update-on-the-upcoming-openscan-firmware-release-imx519-other-changes"
 ---
 
 For almost two years, I have been working on the first version of the firmware for the OpenScan Mini + Classic. And so far, I have been able to release updates, that could be easily installed through the user interface.

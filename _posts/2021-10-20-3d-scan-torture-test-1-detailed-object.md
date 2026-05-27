@@ -12,7 +12,7 @@ image:
   path: "/assets/img/posts/2021-10-20-3d-scan-torture-test-1-detailed-object/render-osc1.jpg"
 redirect_from:
   - "/blogs/news/3d-scan-torture-test-1-detailed-object"
-  - "https://62f7a3-4.myshopify.com/blogs/news/3d-scan-torture-test-1-detailed-object"
+  - "https://openscan.eu/blogs/news/3d-scan-torture-test-1-detailed-object"
 ---
 
 This is the first post of an upcoming series, where I will publish challenging image sets, each containing at least an isolated challenging property. The images of this particular set are not very challenging (as described below), but the object contains a ton of tiny and very challenging features. I will try to test as many different photogrammetry programs as possible. So if you want to join testing, feel free to download and process the files which are linked at the end of this article.

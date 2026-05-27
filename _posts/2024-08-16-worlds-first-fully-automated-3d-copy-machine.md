@@ -16,7 +16,7 @@ image:
   path: "/assets/img/posts/2024-08-16-worlds-first-fully-automated-3d-copy-machine/title.jpg"
 redirect_from:
   - "/blogs/news/worlds-first-fully-automated-3d-copy-machine"
-  - "https://62f7a3-4.myshopify.com/blogs/news/worlds-first-fully-automated-3d-copy-machine"
+  - "https://openscan.eu/blogs/news/worlds-first-fully-automated-3d-copy-machine"
 ---
 
 It has been a long-standing dream to have a machine into which you can simply place an object, press a button, and obtain an exact copy. Through the power of open-source software and open hardware, we have been able to build **the world's first copy machine for real-world objects**. We achieved this by combining our [OpenScan Mini](https://openscan.eu/pages/openscan-mini) with a [Prusa MK3S+](https://www.prusa3d.com/category/original-prusa-i3-mk3s/) 3D printer.

@@ -13,7 +13,7 @@ image:
   path: "/assets/img/posts/2026-02-10-openscan3-coordinate-system-why-instead-of-x-y-z/os3-coordinate-system-ad175c30-74f9-4c84-b1a1-184b77f69f7a.jpg"
 redirect_from:
   - "/blogs/news/openscan3-coordinate-system-why-%CF%86-%CE%B8-instead-of-x-y-z"
-  - "https://62f7a3-4.myshopify.com/blogs/news/openscan3-coordinate-system-why-%CF%86-%CE%B8-instead-of-x-y-z"
+  - "https://openscan.eu/blogs/news/openscan3-coordinate-system-why-%CF%86-%CE%B8-instead-of-x-y-z"
 ---
 
 *This is the third blog post of a series on the OpenScan3 firmware. Read the [previous post here](https://openscan.eu/blogs/news/openscan3-firmware-projects-scans). Comments, questions, or suggestions are always very welcome and a great help for future work on the firmware!*

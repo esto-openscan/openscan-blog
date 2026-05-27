@@ -13,7 +13,7 @@ image:
   path: "/assets/img/posts/2022-09-26-short-review-new-arducam-tof-sensor-kickstarter/2022-09-26-arducam-tof2.webp"
 redirect_from:
   - "/blogs/news/short-review-new-arducam-tof-sensor-kickstarter"
-  - "https://62f7a3-4.myshopify.com/blogs/news/short-review-new-arducam-tof-sensor-kickstarter"
+  - "https://openscan.eu/blogs/news/short-review-new-arducam-tof-sensor-kickstarter"
 ---
 
 tldr; Till the end of September, you can get the [new Arducam TOF camera on Kickstarter*](https://www.kickstarter.com/projects/arducam/time-of-flight-tof-camera-for-raspberry-pi?ref=4apsz7), where you can now get the device for ~US$30 instead of US$50. What looks like a normal camera, is a depth sensor with a resolution of 240x180 pixel. This sensor is capable of capturing depth (3D) information with 30fps on a Raspberry Pi 4.

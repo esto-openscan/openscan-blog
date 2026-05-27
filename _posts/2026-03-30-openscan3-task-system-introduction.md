@@ -16,7 +16,7 @@ image:
   path: "/assets/img/posts/2026-03-30-openscan3-task-system-introduction/os3-task-system.jpg"
 redirect_from:
   - "/blogs/news/openscan3-task-system-introduction"
-  - "https://62f7a3-4.myshopify.com/blogs/news/openscan3-task-system-introduction"
+  - "https://openscan.eu/blogs/news/openscan3-task-system-introduction"
 ---
 
 *This is a blog post in a series on the OpenScan3 firmware. Read the [previous post here](https://openscan.eu/blogs/news/openscan3-firmware-smooth-moves). Comments, questions, or suggestions are always very welcome and a great help for future work on the firmware!*

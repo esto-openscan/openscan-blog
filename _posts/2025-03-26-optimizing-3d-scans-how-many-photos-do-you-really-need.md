@@ -13,7 +13,7 @@ image:
   path: "/assets/img/posts/2025-03-26-optimizing-3d-scans-how-many-photos-do-you-really-need/photocount-photogrammetry-5d3b6b89-b153-4885-83fa-1019c633f20a.gif"
 redirect_from:
   - "/blogs/news/optimizing-3d-scans-how-many-photos-do-you-really-need"
-  - "https://62f7a3-4.myshopify.com/blogs/news/optimizing-3d-scans-how-many-photos-do-you-really-need"
+  - "https://openscan.eu/blogs/news/optimizing-3d-scans-how-many-photos-do-you-really-need"
 ---
 
 **TL;DR: Is more always better? When it comes to photogrammetry, the clear answer is no! We performed tests, which align with our experience, showing that there is an optimal number of images for turntable photogrammetry—around 200 photos. Increasing beyond 300 photos does not improve mesh quality and only increases processing times.**

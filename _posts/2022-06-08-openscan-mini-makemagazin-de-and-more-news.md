@@ -10,7 +10,7 @@ image:
   path: "/assets/img/posts/2022-06-08-openscan-mini-makemagazin-de-and-more-news/2022-06-08-makemagazin.webp"
 redirect_from:
   - "/blogs/news/openscan-mini-makemagazin-de-and-more-news"
-  - "https://62f7a3-4.myshopify.com/blogs/news/openscan-mini-makemagazin-de-and-more-news"
+  - "https://openscan.eu/blogs/news/openscan-mini-makemagazin-de-and-more-news"
 ---
 
 Five years ago, I did not even know what an Arduino could be and now this...

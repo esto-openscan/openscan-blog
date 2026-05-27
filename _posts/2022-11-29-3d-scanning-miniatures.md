@@ -16,7 +16,7 @@ image:
   path: "/assets/img/posts/2022-11-29-3d-scanning-miniatures/2022-11-29-scanning-miniatures01.webp"
 redirect_from:
   - "/blogs/news/3d-scanning-miniatures"
-  - "https://62f7a3-4.myshopify.com/blogs/news/3d-scanning-miniatures"
+  - "https://openscan.eu/blogs/news/3d-scanning-miniatures"
 ---
 
 ***tldr;*** Squidmar Miniatures released a [great video](https://www.youtube.com/watch?v=tp5p2nDnON8), where they used the [OpenScan Mini](https://en.openscan.eu/product-page/openscan-mini) and the OpenScanCloud to scan one of their [amazing miniatures](https://champions-of-sona-75mm-resin-miniatures.backerkit.com/hosted_preorders). As the video is focusing on the results, I want to add some more technical details. Anway, the **raw** results already speak for themselves:

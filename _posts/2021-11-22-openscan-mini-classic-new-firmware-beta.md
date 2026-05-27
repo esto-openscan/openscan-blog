@@ -11,7 +11,7 @@ image:
   path: "/assets/img/posts/2021-11-22-openscan-mini-classic-new-firmware-beta/2021-11-21-firmware-beta.webp"
 redirect_from:
   - "/blogs/news/openscan-mini-classic-new-firmware-beta"
-  - "https://62f7a3-4.myshopify.com/blogs/news/openscan-mini-classic-new-firmware-beta"
+  - "https://openscan.eu/blogs/news/openscan-mini-classic-new-firmware-beta"
 ---
 
 Finally, there is a new Raspbian image for the OpenScan devices incorporating the latest changes:

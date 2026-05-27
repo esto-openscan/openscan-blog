@@ -12,7 +12,7 @@ image:
   path: "/assets/img/posts/2021-10-11-new-firmware-with-cloud-functionality-for-openscan-classic-mini-beta/2021-10-12-osc-firmware.webp"
 redirect_from:
   - "/blogs/news/new-firmware-with-cloud-functionality-for-openscan-classic-mini-beta"
-  - "https://62f7a3-4.myshopify.com/blogs/news/new-firmware-with-cloud-functionality-for-openscan-classic-mini-beta"
+  - "https://openscan.eu/blogs/news/new-firmware-with-cloud-functionality-for-openscan-classic-mini-beta"
 ---
 
 After publishing a Windows Desktop GUI and the Python scripts to upload files to the OpenScanCloud, I finally managed to implement the new features into the OpenScan Firmware.

@@ -17,7 +17,7 @@ image:
   path: "/assets/img/posts/2026-01-23-preview-of-the-openscan3-firmware-a-fresh-start-with-modern-architecture/os3-dev-quadrat-20c2d0f9-615c-4808-b209-089bb8cdbb82.jpg"
 redirect_from:
   - "/blogs/news/preview-of-the-openscan3-firmware-a-fresh-start-with-modern-architecture"
-  - "https://62f7a3-4.myshopify.com/blogs/news/preview-of-the-openscan3-firmware-a-fresh-start-with-modern-architecture"
+  - "https://openscan.eu/blogs/news/preview-of-the-openscan3-firmware-a-fresh-start-with-modern-architecture"
 ---
 
 ##### *About this post*

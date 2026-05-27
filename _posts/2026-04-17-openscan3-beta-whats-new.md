@@ -13,7 +13,7 @@ image:
   path: "/assets/img/posts/2026-04-17-openscan3-beta-whats-new/openscan3-beta.png"
 redirect_from:
   - "/blogs/news/openscan3-beta-whats-new"
-  - "https://62f7a3-4.myshopify.com/blogs/news/openscan3-beta-whats-new"
+  - "https://openscan.eu/blogs/news/openscan3-beta-whats-new"
 ---
 
 We just announced that OpenScan3 is moving into beta. [That post covers what beta means](https://openscan.eu/blogs/news/openscan3-reaches-beta) and where we still need help. This one is about what's actually in it. Elias has been working on the new firmware for over a year, and it's finally ready for broader use. Here's what changed.

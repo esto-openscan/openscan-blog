@@ -12,7 +12,7 @@ image:
   path: "/assets/img/posts/2021-12-09-openscan-arducam-testing-the-new-16-megapixel-camera/2021-12-01-arducam04.webp"
 redirect_from:
   - "/blogs/news/openscan-arducam-testing-the-new-16-megapixel-camera"
-  - "https://62f7a3-4.myshopify.com/blogs/news/openscan-arducam-testing-the-new-16-megapixel-camera"
+  - "https://openscan.eu/blogs/news/openscan-arducam-testing-the-new-16-megapixel-camera"
 ---
 
 After sticking to the Pi Camera for a long time, finally, there seems to be a very promising alternative featuring twice the resolution and built-in autofocus capabilities: The Arducam 16MP camera. I got lucky being able to test this new camera...

@@ -15,7 +15,7 @@ image:
   path: "/assets/img/posts/2022-06-15-chasing-microns-openscan-mini-accuracy-test-part-2/2022-06-15-accuracy04.webp"
 redirect_from:
   - "/blogs/news/chasing-microns-openscan-mini-accuracy-test-part-2"
-  - "https://62f7a3-4.myshopify.com/blogs/news/chasing-microns-openscan-mini-accuracy-test-part-2"
+  - "https://openscan.eu/blogs/news/chasing-microns-openscan-mini-accuracy-test-part-2"
 ---
 
 **TLDR: I improved the setup and got myself some highly accurate steel spheres with nominal diameter of 20 and 25 mm ± 0.0025mm. I used the**[**OpenScan Mini**](https://en.openscan.eu/openscan-mini)**to scan a scene with both spheres, scaled it using a reference measurement from one sphere, and analyzed the diameter and surface deviation of the second one. I reliably get a diameter of ~20±0.03mm as well as a surface deviation within 2σ = 0.03mm**

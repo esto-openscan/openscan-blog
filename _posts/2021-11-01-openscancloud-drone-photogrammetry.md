@@ -11,7 +11,7 @@ image:
   path: "/assets/img/posts/2021-11-01-openscancloud-drone-photogrammetry/2021-11-01-drone-photogrammetry.webp"
 redirect_from:
   - "/blogs/news/openscancloud-drone-photogrammetry"
-  - "https://62f7a3-4.myshopify.com/blogs/news/openscancloud-drone-photogrammetry"
+  - "https://openscan.eu/blogs/news/openscancloud-drone-photogrammetry"
 ---
 
 I am super happy, that a generous user allowed to show the resulting model of his drone photos processed with the OpenScanCloud.

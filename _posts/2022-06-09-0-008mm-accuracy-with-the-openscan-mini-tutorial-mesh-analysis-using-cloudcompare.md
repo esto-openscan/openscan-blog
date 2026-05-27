@@ -16,7 +16,7 @@ image:
   path: "/assets/img/posts/2022-06-09-0-008mm-accuracy-with-the-openscan-mini-tutorial-mesh-analysis-using-cloudcompare/2022-06-09-accuracy03.webp"
 redirect_from:
   - "/blogs/news/0-008mm-accuracy-with-the-openscan-mini-tutorial-mesh-analysis-using-cloudcompare"
-  - "https://62f7a3-4.myshopify.com/blogs/news/0-008mm-accuracy-with-the-openscan-mini-tutorial-mesh-analysis-using-cloudcompare"
+  - "https://openscan.eu/blogs/news/0-008mm-accuracy-with-the-openscan-mini-tutorial-mesh-analysis-using-cloudcompare"
 ---
 
 **TLDR:**

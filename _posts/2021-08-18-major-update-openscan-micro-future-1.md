@@ -11,7 +11,7 @@ image:
   path: "/assets/img/posts/2021-08-18-major-update-openscan-micro-future-1/2021-08-13-openscan-micro.webp"
 redirect_from:
   - "/blogs/news/major-update-openscan-micro-future-1"
-  - "https://62f7a3-4.myshopify.com/blogs/news/major-update-openscan-micro-future-1"
+  - "https://openscan.eu/blogs/news/major-update-openscan-micro-future-1"
 ---
 
 ### **The Micro**

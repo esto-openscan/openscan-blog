@@ -15,7 +15,7 @@ image:
   path: "/assets/img/posts/2026-02-24-prototype-openscan-multi-camera-rig/img-3825.jpg"
 redirect_from:
   - "/blogs/news/prototype-openscan-multi-camera-rig"
-  - "https://62f7a3-4.myshopify.com/blogs/news/prototype-openscan-multi-camera-rig"
+  - "https://openscan.eu/blogs/news/prototype-openscan-multi-camera-rig"
 ---
 
 It's been a long standing idea to get myself a modular multi-camera system based on the Raspberry Pi + IMX519. I took a couple of smaller attempts getting into this subject and doing some initial testing, but it always failed due to a lack of knowledge and/or time and money.

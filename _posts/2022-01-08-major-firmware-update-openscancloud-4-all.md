@@ -11,7 +11,7 @@ image:
   path: "/assets/img/posts/2022-01-08-major-firmware-update-openscancloud-4-all/2022-01-08-firmware-update1.webp"
 redirect_from:
   - "/blogs/news/major-firmware-update-openscancloud-4-all"
-  - "https://62f7a3-4.myshopify.com/blogs/news/major-firmware-update-openscancloud-4-all"
+  - "https://openscan.eu/blogs/news/major-firmware-update-openscancloud-4-all"
 ---
 
 **In short: You can create 3d models like this with only your Raspberry Pi + Camera and an internet connection (5 clicks --> 100 photos + 5 min of automated processing)**

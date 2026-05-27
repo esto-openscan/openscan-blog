@@ -13,7 +13,7 @@ image:
   path: "/assets/img/posts/2022-02-15-scanning-white-objects-with-the-help-of-uv-powder/2022-02-15-scanning-uv-spray1.webp"
 redirect_from:
   - "/blogs/news/scanning-white-objects-with-the-help-of-uv-powder"
-  - "https://62f7a3-4.myshopify.com/blogs/news/scanning-white-objects-with-the-help-of-uv-powder"
+  - "https://openscan.eu/blogs/news/scanning-white-objects-with-the-help-of-uv-powder"
 ---
 
 Photogrammetry requires an object to have a lot of surface features. For this reason, plastic and metal objects almost always need some kind of preparation (see the [scan gallery](https://en.openscan.eu/scan-gallery) for many examples). My normal workflow includes spraying the object with scanning or chalk spray and creating a very fine layer of thousands of sprinkles. Unfortunately, scanning spray only comes in the color white and chalk spray with a different color tends to leave some stain afte*r washing/removing.*

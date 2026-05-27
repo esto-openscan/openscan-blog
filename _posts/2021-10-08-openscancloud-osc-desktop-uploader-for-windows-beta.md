@@ -11,7 +11,7 @@ image:
   path: "/assets/img/posts/2021-10-08-openscancloud-osc-desktop-uploader-for-windows-beta/2021-10-10-osc-uploader-windows.jpg"
 redirect_from:
   - "/blogs/news/openscancloud-osc-desktop-uploader-for-windows-beta"
-  - "https://62f7a3-4.myshopify.com/blogs/news/openscancloud-osc-desktop-uploader-for-windows-beta"
+  - "https://openscan.eu/blogs/news/openscancloud-osc-desktop-uploader-for-windows-beta"
 ---
 
 I just released the next update for the OpenScanCloud: An application, where you can easily select an image folder or zip file to upload for photogrammetry processing. This is as close to a *one-click-solution* as possible. And the best part (at least for you): no programming needed ;)

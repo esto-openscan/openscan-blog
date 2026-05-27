@@ -15,7 +15,7 @@ image:
   path: "/assets/img/posts/2026-05-04-understanding-and-using-the-histogram-to-improve-scan-quality/histogram-titel-b9cf756f-7dc4-48fc-a592-519892a09f70.png"
 redirect_from:
   - "/blogs/news/understanding-and-using-the-histogram-to-improve-scan-quality"
-  - "https://62f7a3-4.myshopify.com/blogs/news/understanding-and-using-the-histogram-to-improve-scan-quality"
+  - "https://openscan.eu/blogs/news/understanding-and-using-the-histogram-to-improve-scan-quality"
 ---
 
 Choosing the right exposure/shutter speed is important for successful 3D scans with photogrammetry. The histogram is a simple tool that helps you find the right settings for your scan object and environment.

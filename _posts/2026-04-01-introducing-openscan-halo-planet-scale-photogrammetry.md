@@ -10,7 +10,7 @@ image:
   path: "/assets/img/posts/2026-04-01-introducing-openscan-halo-planet-scale-photogrammetry/openscanhalo.png"
 redirect_from:
   - "/blogs/news/introducing-openscan-halo-planet-scale-photogrammetry"
-  - "https://62f7a3-4.myshopify.com/blogs/news/introducing-openscan-halo-planet-scale-photogrammetry"
+  - "https://openscan.eu/blogs/news/introducing-openscan-halo-planet-scale-photogrammetry"
 ---
 
 For years, OpenScan has focused on affordable 3D scanning for smaller objects.

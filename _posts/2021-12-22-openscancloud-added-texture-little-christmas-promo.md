@@ -11,7 +11,7 @@ image:
   path: "/assets/img/posts/2021-12-22-openscancloud-added-texture-little-christmas-promo/2021-12-22-osc-color1.webp"
 redirect_from:
   - "/blogs/news/openscancloud-added-texture-little-christmas-promo"
-  - "https://62f7a3-4.myshopify.com/blogs/news/openscancloud-added-texture-little-christmas-promo"
+  - "https://openscan.eu/blogs/news/openscancloud-added-texture-little-christmas-promo"
 ---
 
 From now on, the [OpenScanCloud](https://www.openscan.eu/openscan-cloud)will return not only a detailed mesh (.obj), but texture as well. In the standard settings, you will get one or several .png files containing the color information.

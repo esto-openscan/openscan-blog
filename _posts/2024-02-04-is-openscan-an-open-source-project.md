@@ -12,7 +12,7 @@ image:
   path: "/assets/img/posts/2024-02-04-is-openscan-an-open-source-project/2024-02-04-teachingtech.png"
 redirect_from:
   - "/blogs/news/is-openscan-an-open-source-project"
-  - "https://62f7a3-4.myshopify.com/blogs/news/is-openscan-an-open-source-project"
+  - "https://openscan.eu/blogs/news/is-openscan-an-open-source-project"
 ---
 
 The short answer is absolutely yes, the longer answer gets a bit more nuanced and we will have to dig into some details. So if you are concerned or just interested, stick around and feel free to share your thoughts.

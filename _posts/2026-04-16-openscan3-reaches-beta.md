@@ -12,7 +12,7 @@ image:
   path: "/assets/img/posts/2026-04-16-openscan3-reaches-beta/openscan3-beta-2d3e53ec-5997-4802-a69f-09bacfbc0146.png"
 redirect_from:
   - "/blogs/news/openscan3-reaches-beta"
-  - "https://62f7a3-4.myshopify.com/blogs/news/openscan3-reaches-beta"
+  - "https://openscan.eu/blogs/news/openscan3-reaches-beta"
 ---
 
 We are happy to announce that OpenScan3 is moving from alpha to beta.

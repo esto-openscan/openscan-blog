@@ -12,7 +12,7 @@ image:
   path: "/assets/img/posts/2024-07-08-openscan-benchy-3d-scanning-benchmark/img-5930.jpg"
 redirect_from:
   - "/blogs/news/openscan-benchy-3d-scanning-benchmark"
-  - "https://62f7a3-4.myshopify.com/blogs/news/openscan-benchy-3d-scanning-benchmark"
+  - "https://openscan.eu/blogs/news/openscan-benchy-3d-scanning-benchmark"
 ---
 
 Similar to 3D printed Benchys, we hope to establish some kind of standard for the rapidly changing 3D Scanning world.

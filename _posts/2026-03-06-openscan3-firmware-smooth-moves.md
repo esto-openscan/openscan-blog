@@ -14,7 +14,7 @@ image:
   path: "/assets/img/posts/2026-03-06-openscan3-firmware-smooth-moves/os3-motion-tuning-ba0710ed-016e-48e4-a8a5-8c0cbe45d79e.jpg"
 redirect_from:
   - "/blogs/news/openscan3-firmware-smooth-moves"
-  - "https://62f7a3-4.myshopify.com/blogs/news/openscan3-firmware-smooth-moves"
+  - "https://openscan.eu/blogs/news/openscan3-firmware-smooth-moves"
 ---
 
 *This is the a blog post in a series on the OpenScan3 firmware. Read the [previous post here](https://openscan.eu/blogs/news/openscan3-coordinate-system-why-%CF%86-%CE%B8-instead-of-x-y-z). Comments, questions, or suggestions are always very welcome and a great help for future work on the firmware!*

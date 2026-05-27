@@ -13,7 +13,7 @@ image:
   path: "/assets/img/posts/2026-02-02-openscan3-firmware-projects-scans/os3-projects-and-scans-title-6a2efd02-ab87-4003-9c27-fb19f96c09db.jpg"
 redirect_from:
   - "/blogs/news/openscan3-firmware-projects-scans"
-  - "https://62f7a3-4.myshopify.com/blogs/news/openscan3-firmware-projects-scans"
+  - "https://openscan.eu/blogs/news/openscan3-firmware-projects-scans"
 ---
 
 *This is the second blogpost of a series on the OpenScan3 firmware. Read the*[*previous post here*](https://openscan.eu/blogs/news/preview-of-the-openscan3-firmware-a-fresh-start-with-modern-architecture)*. Comments, questions, or suggestions are always welcome and a great help for future work on the firmware!*

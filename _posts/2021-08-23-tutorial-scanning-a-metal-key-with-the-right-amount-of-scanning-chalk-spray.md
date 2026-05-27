@@ -14,7 +14,7 @@ image:
   path: "/assets/img/posts/2021-08-23-tutorial-scanning-a-metal-key-with-the-right-amount-of-scanning-chalk-spray/2021-08-23-scanned-keys.webp"
 redirect_from:
   - "/blogs/news/tutorial-scanning-a-metal-key-with-the-right-amount-of-scanning-chalk-spray"
-  - "https://62f7a3-4.myshopify.com/blogs/news/tutorial-scanning-a-metal-key-with-the-right-amount-of-scanning-chalk-spray"
+  - "https://openscan.eu/blogs/news/tutorial-scanning-a-metal-key-with-the-right-amount-of-scanning-chalk-spray"
 ---
 
 As soon as you get into photogrammetry, you will encounter certain surface types and materials that are not as easy to scan as others. Very often, people blame their photogrammetry software, but I have found that most programs are able to deliver similar outputs (as soon as the input is fine).

@@ -14,7 +14,7 @@ image:
   path: "/assets/img/posts/2026-04-10-openscan3-firmware-how-tasks-work-in-practice/os3-task-in-practice-d6deff93-1c00-49f4-b400-5b70af9954ca.jpg"
 redirect_from:
   - "/blogs/news/openscan3-firmware-how-tasks-work-in-practice"
-  - "https://62f7a3-4.myshopify.com/blogs/news/openscan3-firmware-how-tasks-work-in-practice"
+  - "https://openscan.eu/blogs/news/openscan3-firmware-how-tasks-work-in-practice"
 ---
 
 *This is a blog post in a series on the OpenScan3 firmware. Read the [previous post here](https://openscan.eu/blogs/news/openscan3-task-system-introduction). Comments, questions, and suggestions are always very welcome and a great help for future work on the firmware.*

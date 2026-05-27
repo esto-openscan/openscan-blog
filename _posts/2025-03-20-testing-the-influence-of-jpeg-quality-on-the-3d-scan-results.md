@@ -14,7 +14,7 @@ image:
   path: "/assets/img/posts/2025-03-20-testing-the-influence-of-jpeg-quality-on-the-3d-scan-results/10vs100-d32c27ee-7617-44a5-a35b-a940b99b3aad.gif"
 redirect_from:
   - "/blogs/news/testing-the-influence-of-jpeg-quality-on-the-3d-scan-results"
-  - "https://62f7a3-4.myshopify.com/blogs/news/testing-the-influence-of-jpeg-quality-on-the-3d-scan-results"
+  - "https://openscan.eu/blogs/news/testing-the-influence-of-jpeg-quality-on-the-3d-scan-results"
 ---
 
 **TLDR: With high contrast surface preparation of the object, JPEG quality can be reduced to under 20% without any noticeable influence on the 3D mesh. Furthermore, the experiment indicates that the size of an image after JPEG compression seems to be a great indicator of existing features (SIFT or similar).**

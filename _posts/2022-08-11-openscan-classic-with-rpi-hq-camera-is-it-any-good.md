@@ -15,7 +15,7 @@ image:
   path: "/assets/img/posts/2022-08-11-openscan-classic-with-rpi-hq-camera-is-it-any-good/2022-08-11-rpi-hq02.webp"
 redirect_from:
   - "/blogs/news/openscan-classic-with-rpi-hq-camera-is-it-any-good"
-  - "https://62f7a3-4.myshopify.com/blogs/news/openscan-classic-with-rpi-hq-camera-is-it-any-good"
+  - "https://openscan.eu/blogs/news/openscan-classic-with-rpi-hq-camera-is-it-any-good"
 ---
 
 **by MichaelX**
