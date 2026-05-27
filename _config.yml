@@ -223,6 +223,9 @@ exclude:
   - tools
   - README.md
   - LICENSE
+  - Dockerfile
+  - docker-compose.yml
+  - deploy.log
   - migration_redirects.csv
   - migration_raw
   - _drafts
