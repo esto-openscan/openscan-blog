@@ -26,6 +26,71 @@ docker compose down
 Generated local files such as `_site`, `.jekyll-cache`, `.sass-cache`,
 `vendor/bundle`, `vendor/cache`, and `node_modules` should not be committed.
 
+## Writing a New Post
+
+Create a Markdown file in `_posts/` using Jekyll's post filename format:
+
+```text
+YYYY-MM-DD-post-slug.md
+```
+
+Example:
+
+```text
+_posts/2026-05-27-blog-moved-to-jekyll-and-chirpy.md
+```
+
+Use front matter like this:
+
+```yaml
+---
+title: "The OpenScan Blog Has Moved"
+date: "2026-05-27T15:16:12+02:00"
+author: "Thomas Megel"
+description: "Short summary for previews and SEO."
+categories:
+  - "News"
+tags:
+  - "openscan"
+  - "blog"
+---
+```
+
+For a title or preview image, place the file next to other post assets:
+
+```text
+assets/img/posts/2026-05-27-blog-moved-to-jekyll-and-chirpy/cover.png
+```
+
+Then reference it in the post front matter:
+
+```yaml
+image:
+  path: "/assets/img/posts/2026-05-27-blog-moved-to-jekyll-and-chirpy/cover.png"
+  alt: "OpenScan blog migration announcement cover image"
+```
+
+If a post uses LaTeX or other MathJax syntax, enable math explicitly:
+
+```yaml
+math: true
+```
+
+Inline math then works like this:
+
+```markdown
+$E = mc^2$
+```
+
+Before publishing, run a production build:
+
+```shell
+docker compose exec -T -u vscode -e JEKYLL_ENV=production site bundle exec jekyll build
+```
+
+If the local preview container is running, the site can also be checked at
+<http://localhost:4000>.
+
 ## Formatting
 
 See the Chirpy [formatting examples](https://chirpy.cotes.page/posts/text-and-typography/).

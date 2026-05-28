@@ -8,11 +8,6 @@
 {%- endif -%}
 ';
 
-main > article > header > .post-meta ~ .mt-3.mb-3,
-main > article > header a.preview-img {
-  display: none !important;
-}
-
 #sidebar #avatar:empty:not([style]) {
   display: none;
 }

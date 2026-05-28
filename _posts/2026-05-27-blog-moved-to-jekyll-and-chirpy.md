@@ -15,6 +15,8 @@ tags:
   - "jekyll"
 image:
   path: "/assets/img/posts/2026-05-27-blog-moved-to-jekyll-and-chirpy/blog-migration-cover.jpg"
+  alt: "OpenScan blog migration announcement cover image"
+
 ---
 
 I'm happy to welcome you to the new OpenScan blog!
