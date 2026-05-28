@@ -114,6 +114,18 @@ Legacy posts automatically show an archive note above the article content. Do
 not use `legacy` or `outdated` as public tags; keep topic tags focused on
 searchable subjects such as hardware, firmware, workflows, or product names.
 
+## Updated Dates
+
+The site derives post `Updated` dates from Git history. Shopify-migrated posts
+with `redirect_from` are skipped by default, so migration cleanup commits do not
+make the whole archive look newly updated.
+
+To intentionally show Git-based updated dates for a migrated post, opt it in:
+
+```yaml
+track_lastmod: true
+```
+
 ## Theme Overrides
 
 This site intentionally overrides selected Chirpy theme files:

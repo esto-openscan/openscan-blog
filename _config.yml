@@ -11,8 +11,10 @@ lang: en
 # Change to your timezone › https://zones.arilyn.cc
 timezone: Europe/Berlin
 
-# Keep disabled during/after migrations, otherwise every migrated post appears updated.
-posts_lastmod_from_git: false
+# Use Git history for the "Updated" timestamp shown on posts.
+# Migrated Shopify posts with `redirect_from` are skipped by the local hook unless
+# they explicitly set `track_lastmod: true`.
+posts_lastmod_from_git: true
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
