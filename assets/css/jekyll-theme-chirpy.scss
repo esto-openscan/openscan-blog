@@ -215,10 +215,10 @@ html[data-mode="dark"] #sidebar #avatar {
   #post-list .post-preview {
     background: transparent;
     display: grid;
-    grid-template-columns: 4.9rem minmax(0, 1fr);
-    column-gap: 1rem;
+    grid-template-columns: 4.4rem minmax(0, 1fr);
+    column-gap: 0.85rem;
     align-items: start;
-    padding: 0.85rem;
+    padding: 0.7rem;
   }
 
   #post-list .card .card-body {
@@ -228,8 +228,8 @@ html[data-mode="dark"] #sidebar #avatar {
 
   #post-list .card .card-body .card-title {
     color: var(--openscan-card-title) !important;
-    margin: 0.2rem 0 0;
-    min-height: 4.5rem;
+    margin: 0.1rem 0 0;
+    min-height: 4.1rem;
     overflow: visible;
     text-overflow: clip;
     white-space: normal;
@@ -242,16 +242,17 @@ html[data-mode="dark"] #sidebar #avatar {
 
   #post-list .card .card-body .card-text.content p {
     color: var(--openscan-card-text);
-    font-size: 1rem;
-    line-height: 1.5;
-    margin-top: 0.7rem;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    margin-top: 0.55rem;
     -webkit-line-clamp: 4;
   }
 
   #post-list .card .card-body .post-meta {
     color: var(--openscan-card-meta) !important;
     grid-column: 1 / -1;
-    margin-top: 1rem;
+    font-size: 0.86rem;
+    margin-top: 0.65rem;
   }
 
   #panel-wrapper .access > section {
@@ -286,7 +287,7 @@ html[data-mode="dark"] #sidebar #avatar {
 
   #post-list .preview-img {
     width: 100%;
-    max-width: 4.9rem;
+    max-width: 4.4rem;
     aspect-ratio: 1 / 1;
     height: auto;
     border-radius: 8px;
@@ -304,7 +305,7 @@ html[data-mode="dark"] #sidebar #avatar {
     align-items: stretch;
     grid-column: 1;
     grid-row: 1;
-    width: 4.9rem;
+    width: 4.4rem;
     padding: 0;
   }
 
@@ -322,7 +323,9 @@ html[data-mode="dark"] #sidebar #avatar {
     }
 
     #post-list .card .card-body {
-      display: block;
+      display: flex !important;
+      flex-direction: column;
+      row-gap: 0.45rem;
       padding: 0;
     }
 
@@ -346,7 +349,8 @@ html[data-mode="dark"] #sidebar #avatar {
 
     #post-list .card .card-body .post-meta {
       grid-column: auto;
-      margin-top: 0;
+      font-size: 0.9rem;
+      margin-top: 0.25rem;
     }
 
     #post-list .preview-img {
@@ -371,7 +375,7 @@ html[data-mode="dark"] #sidebar #avatar {
     }
 
     #post-list .card .card-body {
-      min-height: 10.5rem;
+      min-height: 0;
       padding: 0;
     }
 
