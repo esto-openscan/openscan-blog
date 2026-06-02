@@ -18,7 +18,7 @@ image:
   path: "/assets/img/posts/2026-06-02-multivid-devlog-1/cover-500x500.webp"
 ---
 
-OpenScan is easy to understand once you see it in action. A scan session can produce a nice object, a satisfying machine movement, interesting camera angles, before/after comparisons, progress shots and plenty of material for tutorials or social media. But recording and arranging all of that by hand is tedious.
+OpenScan is easy to understand once you [see it in action](https://www.youtube.com/shorts/5lUPJOdkE0k). A scan session can produce a nice object, a satisfying machine movement, interesting camera angles, before/after comparisons, progress shots and plenty of material for tutorials or social media. But recording and arranging all of that by hand is tedious.
 
 For a small open source / open hardware project, that is a real bottleneck. We need attention from potential users, contributors and customers, but we would rather spend our time building hardware, writing software and documenting what we learn than manually producing marketing videos all day.
 
