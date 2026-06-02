@@ -164,7 +164,7 @@ After that, automatically cutting and light editing will come into focus. Becaus
 
 This is where integrating the `multivid` prototype with an OpenScan3 device becomes especially interesting: a scan session is already a highly structured process. A future pipeline could combine the camera videos with the scan progress and scanner movements to generate first video drafts automatically.
 
-That is the real goal of `multivid: not replacing good video editing, but removing enough repetitive work that documenting OpenScan becomes part of the scanning workflow instead of a separate marketing chore.
+That is the real goal of `multivid`: not replacing good video editing, but removing enough repetitive work that documenting OpenScan becomes part of the scanning workflow instead of a separate marketing chore.
 
 ## Reverse Footnote
 
