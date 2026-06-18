@@ -28,7 +28,7 @@ In OpenScan3 we needed some abstraction around long-running procedures or functi
 - make Tasks versatile, status rich, pausable and like a playground for experiments
 - build OpenScan3 features with Tasks to make them exchangeable, easier to maintain and improve
 
-I already explained why we needed Tasks in OpenScan3, and I will not go into details like Task autodiscovery and how the `TaskManager` actually works, because you can find up-to-date information on this in the developer docs.
+I already explained why we needed Tasks in OpenScan3, and I will not go into details like Task autodiscovery and how the `TaskManager` actually works, because you can find up-to-date information on this in the [developer docs](https://github.com/OpenScan-org/OpenScan3/tree/develop/docs).
 
 Instead, we will look at the `demo_examples.py`[^path] and learn what Tasks are made of and get an idea of the overall design philosophy around Tasks.
 
