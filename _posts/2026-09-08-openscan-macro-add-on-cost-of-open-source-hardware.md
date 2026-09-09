@@ -12,13 +12,13 @@ tags:
   - "pricing"
   - "open-source-hardware"
 image:
-  path: "/assets/img/posts/2026-09-08-openscan-macro-add-on-cost-of-open-source-hardware/mini-classic-compatibility.jpg"
+  path: "/assets/img/posts/2026-09-08-openscan-macro-add-on-cost-of-open-source-hardware/OSMacro_Mini_Classic_Compatibility.jpg"
   alt: "OpenScan Macro Add-on compatibility with Mini and Classic"
 ---
 
 ## Limited sale & some thoughts on open-source business
 
-![OpenScan Macro Add-on compatibility with Mini and Classic](/assets/img/posts/2026-09-08-openscan-macro-add-on-cost-of-open-source-hardware/mini-classic-compatibility.jpg)
+![OpenScan Macro Add-on compatibility with Mini and Classic](/assets/img/posts/2026-09-08-openscan-macro-add-on-cost-of-open-source-hardware/OSMacro_Mini_Classic_Compatibility.jpg)
 
 ## Now available at openscan.eu
 
