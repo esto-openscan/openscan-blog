@@ -12,12 +12,12 @@
   display: none;
 }
 
-html[data-mode="dark"] #sidebar #avatar {
+html[data-bs-theme="dark"] #sidebar #avatar {
   background-color: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
-  html:not([data-mode]) #sidebar #avatar {
+  html:not([data-bs-theme]) #sidebar #avatar {
     background-color: #ffffff;
   }
 }
@@ -389,25 +389,25 @@ html[data-mode="dark"] #sidebar #avatar {
   }
 }
 
-html[data-mode="light"] {
+html[data-bs-theme="light"] {
   @include openscan-light-vars;
   @include openscan-components;
 }
 
-html[data-mode="dark"] {
+html[data-bs-theme="dark"] {
   @include openscan-dark-vars;
   @include openscan-components;
 }
 
 @media (prefers-color-scheme: light) {
-  html:not([data-mode]) {
+  html:not([data-bs-theme]) {
     @include openscan-light-vars;
     @include openscan-components;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  html:not([data-mode]) {
+  html:not([data-bs-theme]) {
     @include openscan-dark-vars;
     @include openscan-components;
   }
