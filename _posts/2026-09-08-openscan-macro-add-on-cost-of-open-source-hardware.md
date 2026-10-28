@@ -11,6 +11,7 @@ tags:
   - "add-on"
   - "pricing"
   - "open-source-hardware"
+  - "open business"
 image:
   path: "/assets/img/posts/2026-09-08-openscan-macro-add-on-cost-of-open-source-hardware/OSMacro_Mini_Classic_Compatibility.jpg"
   alt: "OpenScan Macro Add-on compatibility with Mini and Classic"
