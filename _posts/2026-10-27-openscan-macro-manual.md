@@ -24,19 +24,19 @@ Needed:
 - Allen Key + screw driver
 
 #### Step 1: Remove polarizer (green), unplug camera cable (yellow) and ringlight cable (red)
-![](/assets/img/posts/2026-10-27-openscan-macro-manual/Mini_step1.jpg)
+![](/assets/img/posts/2026-10-27-openscan-macro-manual/Mini_step1.JPG)
 
 #### Step 2: unscrew ringlight (red) and camera (yellow)
-![](/assets/img/posts/2026-10-27-openscan-macro-manual/Mini_step2.jpg)
+![](/assets/img/posts/2026-10-27-openscan-macro-manual/Mini_step2.JPG)
 
 #### Step 3: Use two M3x8 screws to mount the Arducam IMX519 onto the Macro module (cable connector facing right)
 ![](/assets/img/posts/2026-10-27-openscan-macro-manual/Classic_step4.jpg)
 
 #### Step 4: Use four M3x12 screws (red) to mount the lens module in the shown orientation (yellow)
-![](/assets/img/posts/2026-10-27-openscan-macro-manual/Mini_step4.jpg)
+![](/assets/img/posts/2026-10-27-openscan-macro-manual/mini_step4.JPG)
 
 #### Step 5: Connect camera cables (exposed copper facing away from the camera - yellow) and the ringlight cable (red)
-![](/assets/img/posts/2026-10-27-openscan-macro-manual/Mini_step5.jpg)
+![](/assets/img/posts/2026-10-27-openscan-macro-manual/Mini_step5.JPG)
 
 Remove the lens cover by turning it slightly counter-clockwise and you are ready to go :)
 (No changes in software needed)
@@ -49,13 +49,13 @@ Needed:
 - Allen Key + screw driver
 
 #### Step 1: Remove default polarizer (red) and unplug ringlight cable (yellow):
-![](/assets/img/posts/2026-10-27-openscan-macro-manual/Classic_step1.jpg)
+![](/assets/img/posts/2026-10-27-openscan-macro-manual/Classic_step1.JPG)
 
 #### Step 2: Unscrew ringlight (four M3x8 screws):
-![](/assets/img/posts/2026-10-27-openscan-macro-manual/Classic_step2.jpg)
+![](/assets/img/posts/2026-10-27-openscan-macro-manual/Classic_step2.JPG)
 
 #### Step 3: Remove camera cable (yellow) and unscrew camera (red):
-![](/assets/img/posts/2026-10-27-openscan-macro-manual/Classic_step3.jpg)
+![](/assets/img/posts/2026-10-27-openscan-macro-manual/Classic_step3.JPG)
 
 #### Step 4: Use two M3x8 screws to mount the Arducam IMX519 onto the Macro module (cable connector facing right):
 ![](/assets/img/posts/2026-10-27-openscan-macro-manual/Classic_step4.jpg)
